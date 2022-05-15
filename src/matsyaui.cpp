@@ -17,7 +17,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include "fishui.h"
+#include "matsyaui.h"
 #include "thememanager.h"
 #include "iconthemeprovider.h"
 #include "shadowhelper/windowshadow.h"
@@ -33,9 +33,9 @@
 #include <QQmlEngine>
 #include <QQuickStyle>
 
-void FishUI::initializeEngine(QQmlEngine *engine, const char *uri)
+void MatsyaUI::initializeEngine(QQmlEngine *engine, const char *uri)
 {
-    Q_ASSERT(QLatin1String(uri) == QLatin1String("FishUI"));
+    Q_ASSERT(QLatin1String(uri) == QLatin1String("MatsyaUI"));
 
     // Set base URL to the plugin URL
     engine->setBaseUrl(baseUrl());
@@ -44,11 +44,11 @@ void FishUI::initializeEngine(QQmlEngine *engine, const char *uri)
     engine->addImageProvider(QStringLiteral("icontheme"), new IconThemeProvider());
 }
 
-void FishUI::registerTypes(const char *uri)
+void MatsyaUI::registerTypes(const char *uri)
 {
-    Q_ASSERT(QLatin1String(uri) == QLatin1String("FishUI"));
+    Q_ASSERT(QLatin1String(uri) == QLatin1String("MatsyaUI"));
 
-    qmlRegisterSingletonType<ThemeManager>("FishUI.Core", 1, 0, "ThemeManager", [](QQmlEngine *engine, QJSEngine *scriptEngine) -> QObject * {
+    qmlRegisterSingletonType<ThemeManager>("MatsyaUI.Core", 1, 0, "ThemeManager", [](QQmlEngine *engine, QJSEngine *scriptEngine) -> QObject * {
         Q_UNUSED(engine)
         Q_UNUSED(scriptEngine)
         return new ThemeManager;
@@ -66,7 +66,7 @@ void FishUI::registerTypes(const char *uri)
     qmlRegisterSingletonType(componentUrl(QStringLiteral("Units.qml")), uri, 1, 0, "Units");
 
     qmlRegisterType(componentUrl(QStringLiteral("AboutDialog.qml")), uri, 1, 0, "AboutDialog");
-    qmlRegisterType(componentUrl(QStringLiteral("ActionTextField.qml")), uri, 1, 0, "ActionTextField");    
+    qmlRegisterType(componentUrl(QStringLiteral("ActionTextField.qml")), uri, 1, 0, "ActionTextField");
     qmlRegisterType(componentUrl(QStringLiteral("BusyIndicator.qml")), uri, 1, 0, "BusyIndicator");
     qmlRegisterType(componentUrl(QStringLiteral("Icon.qml")), uri, 1, 0, "Icon");
     qmlRegisterType(componentUrl(QStringLiteral("PopupTips.qml")), uri, 1, 0, "PopupTips");
@@ -83,7 +83,7 @@ void FishUI::registerTypes(const char *uri)
     qmlProtectModule(uri, 1);
 }
 
-QUrl FishUI::componentUrl(const QString &fileName) const
+QUrl MatsyaUI::componentUrl(const QString &fileName) const
 {
-    return QUrl(QStringLiteral("qrc:/fishui/kit/") + fileName);
+    return QUrl(QStringLiteral("qrc:/matsyaui/kit/") + fileName);
 }

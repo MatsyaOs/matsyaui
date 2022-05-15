@@ -1,9 +1,9 @@
-set(TARGET FishUI)
+set(TARGET MatsyaUI)
 set(MODULE_VERSION "1.0")
 
 add_library(${TARGET} SHARED "")
 target_sources(${TARGET} PRIVATE
-        fishui.cpp
+        matsyaui.cpp
         iconthemeprovider.cpp
         thememanager.cpp
 
@@ -14,8 +14,8 @@ target_sources(${TARGET} PRIVATE
 
         desktop/menupopupwindow.cpp
 
-        fishui.qrc
-        fish-style/style.qrc
+        matsyaui.qrc
+        matsya-style/style.qrc
         )
 if (MSVC)
     target_sources(${TARGET} PRIVATE
@@ -71,4 +71,4 @@ install(TARGETS ${TARGET} DESTINATION ${INSTALL_QMLDIR}/${TARGET})
 install(DIRECTORY controls/ DESTINATION ${INSTALL_QMLDIR}/${TARGET})
 
 # INSTALL STYLE
-install(DIRECTORY fish-style DESTINATION ${INSTALL_QMLDIR}/QtQuick/Controls.2)
+install(DIRECTORY matsya-style DESTINATION ${INSTALL_QMLDIR}/QtQuick/Controls.2)
