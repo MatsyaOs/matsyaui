@@ -1,6 +1,6 @@
-# FishUI
+# MatsyaUI
 
-FishUI is a GUI library based on QQC2 (Qt Quick Controls 2), every Cutefish application uses it.
+MatsyaUI is a GUI library based on QQC2 (Qt Quick Controls 2), every Matsya application uses it.
 
 ## Features
 
@@ -48,4 +48,4 @@ $ dpkg-buildpackage -b -uc -us
 
 ## License
 
-FishUI is licensed under GPLv3.
+MatsyaUI is licensed under GPLv3.

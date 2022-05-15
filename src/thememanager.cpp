@@ -1,21 +1,4 @@
-/*
- * Copyright (C) 2021 CutefishOS Team.
- *
- * Author:     cutefish <cutefishos@foxmail.com>
- *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
- */
+
 
 #include "thememanager.h"
 
@@ -26,11 +9,11 @@
 #include <QDBusInterface>
 #include <QDebug>
 
-static const QString Service = "com.cutefish.Settings";
+static const QString Service = "com.matsya.Settings";
 static const QString ObjectPath = "/Theme";
-static const QString Interface = "com.cutefish.Theme";
+static const QString Interface = "com.matsya.Theme";
 
-ThemeManager::ThemeManager(QObject *parent) 
+ThemeManager::ThemeManager(QObject *parent)
     : QObject(parent)
     , m_darkMode(false)
     , m_accentColorIndex(-1)

@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.5)
 
-set(FISHUI_VERSION 1.0)
-project(fishui VERSION ${FISHUI_VERSION})
+set(MATSYAUI_VERSION 1.0)
+project(matsyaui VERSION ${MATSYAUI_VERSION})
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 set(CMAKE_AUTOUIC ON)
@@ -58,15 +58,15 @@ endif ()
 
 # Install
 if (MSVC)
-    # Install FishUI to vcpkg installed dir
+    # Install MatsyaUI to vcpkg installed dir
     # for example.
     # _VCPKG_INSTALLED_DIR:PATH=C:/app/vcpkg/installed
     # VCPKG_TARGET_TRIPLET:STRING=x64-windows
-    # The final installed dir is C:/app/vcpkg/installed/x64-windows/share/FishUI
-    set(CMAKECONFIG_INSTALL_DIR "${_VCPKG_INSTALLED_DIR}/${VCPKG_TARGET_TRIPLET}/share/FishUI")
+    # The final installed dir is C:/app/vcpkg/installed/x64-windows/share/MatsyaUI
+    set(CMAKECONFIG_INSTALL_DIR "${_VCPKG_INSTALLED_DIR}/${VCPKG_TARGET_TRIPLET}/share/MatsyaUI")
     set(CMAKE_INSTALL_PREFIX "${_VCPKG_INSTALLED_DIR}")
 else ()
-    set(CMAKECONFIG_INSTALL_DIR "${CMAKE_INSTALL_LIBDIR}/cmake/FishUI")
+    set(CMAKECONFIG_INSTALL_DIR "${CMAKE_INSTALL_LIBDIR}/cmake/MatsyaUI")
 endif ()
 message(STATUS "install directory:" "${CMAKECONFIG_INSTALL_DIR}")
 
@@ -82,8 +82,8 @@ message(STATUS "install directory:" "${CMAKECONFIG_INSTALL_DIR}")
 add_subdirectory(src)
 
 configure_package_config_file(
-        "${CMAKE_CURRENT_SOURCE_DIR}/FishUIConfig.cmake.in"
-        "${CMAKE_CURRENT_BINARY_DIR}/FishUIConfig.cmake"
+        "${CMAKE_CURRENT_SOURCE_DIR}/MatsyaUIConfig.cmake.in"
+        "${CMAKE_CURRENT_BINARY_DIR}/MatsyaUIConfig.cmake"
         INSTALL_DESTINATION
         "${CMAKECONFIG_INSTALL_DIR}"
         PATH_VARS
@@ -91,23 +91,23 @@ configure_package_config_file(
 )
 
 write_basic_package_version_file(
-        ${CMAKE_CURRENT_BINARY_DIR}/FishUIConfigVersion.cmake
+        ${CMAKE_CURRENT_BINARY_DIR}/MatsyaUIConfigVersion.cmake
         VERSION ${LIB_VERSION}
         COMPATIBILITY AnyNewerVersion
 )
 if(NOT APPLE)
 install(
         FILES
-        "${CMAKE_CURRENT_BINARY_DIR}/FishUIConfig.cmake"
-        "${CMAKE_CURRENT_BINARY_DIR}/FishUIConfigVersion.cmake"
+        "${CMAKE_CURRENT_BINARY_DIR}/MatsyaUIConfig.cmake"
+        "${CMAKE_CURRENT_BINARY_DIR}/MatsyaUIConfigVersion.cmake"
         DESTINATION
         "${CMAKECONFIG_INSTALL_DIR}"
         COMPONENT
         Devel
 )
 
-install(EXPORT FishUITargets
+install(EXPORT MatsyaUITargets
         DESTINATION "${CMAKECONFIG_INSTALL_DIR}"
-        FILE FishUITargets.cmake
+        FILE MatsyaUITargets.cmake
         )
 endif()
