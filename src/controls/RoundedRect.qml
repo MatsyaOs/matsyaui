@@ -21,13 +21,13 @@ import QtQuick 2.12
 import QtQuick.Controls 2.12
 import QtGraphicalEffects 1.0
 
-import FishUI 1.0 as FishUI
+import MatsyaUI 1.0 as MatsyaUI
 
 Item {
     id: control
 
-    property real radius: FishUI.Theme.smallRadius
-    property var color: FishUI.Theme.backgroundColor
+    property real radius: MatsyaUI.Theme.smallRadius
+    property var color: MatsyaUI.Theme.backgroundColor
     property bool borderEnabled: true
 
     property bool animationEnabled: true
@@ -53,9 +53,9 @@ Item {
         anchors.fill: parent
         color: "transparent"
         radius: _background.radius
-        border.width: 1 / FishUI.Theme.devicePixelRatio
-        border.pixelAligned: FishUI.Theme.devicePixelRatio > 1 ? false : true
-        border.color: FishUI.Theme.darkMode ? Qt.rgba(255, 255, 255, 0.1) : Qt.rgba(0, 0, 0, 0.1)
+        border.width: 1 / MatsyaUI.Theme.devicePixelRatio
+        border.pixelAligned: MatsyaUI.Theme.devicePixelRatio > 1 ? false : true
+        border.color: MatsyaUI.Theme.darkMode ? Qt.rgba(255, 255, 255, 0.1) : Qt.rgba(0, 0, 0, 0.1)
         visible: control.borderEnabled
         antialiasing: true
     }

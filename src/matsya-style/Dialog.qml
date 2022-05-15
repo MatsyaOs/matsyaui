@@ -23,7 +23,7 @@
 import QtQuick 2.6
 import QtGraphicalEffects 1.0
 import QtQuick.Templates 2.3 as T
-import FishUI 1.0 as FishUI
+import MatsyaUI 1.0 as MatsyaUI
 
 T.Dialog {
     id: control
@@ -35,7 +35,7 @@ T.Dialog {
 
     contentWidth: contentItem.implicitWidth || (contentChildren.length === 1 ? contentChildren[0].implicitWidth : 0)
     contentHeight: contentItem.implicitHeight + header.implicitHeight || (contentChildren.length === 1 ? contentChildren[0].implicitHeight : 0) + header.implicitHeight + footer.implicitHeight
-    padding: FishUI.Theme.hugeRadius
+    padding: MatsyaUI.Theme.hugeRadius
 
     enter: Transition {
         NumberAnimation {
@@ -60,8 +60,8 @@ T.Dialog {
     contentItem: Item {}
 
     background: Rectangle {
-        radius: FishUI.Theme.hugeRadius
-        color: FishUI.Theme.secondBackgroundColor
+        radius: MatsyaUI.Theme.hugeRadius
+        color: MatsyaUI.Theme.secondBackgroundColor
         border.width: 0
 
         layer.enabled: true
@@ -77,7 +77,7 @@ T.Dialog {
 
     header: Item {
         id: _headerItem
-        implicitHeight: _headerLabel.visible ? _headerLabel.implicitHeight + FishUI.Units.largeSpacing : 0
+        implicitHeight: _headerLabel.visible ? _headerLabel.implicitHeight + MatsyaUI.Units.largeSpacing : 0
 
         Label {
             id: _headerLabel
@@ -91,6 +91,6 @@ T.Dialog {
 
     footer: DialogButtonBox {
         visible: count > 0
-        padding: FishUI.Units.largeSpacing * 2
+        padding: MatsyaUI.Units.largeSpacing * 2
     }
 }

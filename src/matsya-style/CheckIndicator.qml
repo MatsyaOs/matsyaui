@@ -38,17 +38,17 @@ import QtQuick 2.9
 import QtQuick.Controls 2.12
 import QtQuick.Controls.impl 2.12
 
-import FishUI 1.0 as FishUI
+import MatsyaUI 1.0 as MatsyaUI
 
 Rectangle {
     id: indicatorItem
     implicitWidth: 18
     implicitHeight: 18
 
-    color: !control.enabled ? control.FishUI.Theme.secondBackgroundColor
-                            : checked ? FishUI.Theme.highlightColor : control.FishUI.Theme.secondBackgroundColor
-    border.color: !control.enabled ? control.FishUI.Theme.disabledTextColor
-        : checked ? control.FishUI.Theme.highlightColor: control.FishUI.Theme.textColor
+    color: !control.enabled ? control.MatsyaUI.Theme.secondBackgroundColor
+                            : checked ? MatsyaUI.Theme.highlightColor : control.MatsyaUI.Theme.secondBackgroundColor
+    border.color: !control.enabled ? control.MatsyaUI.Theme.disabledTextColor
+        : checked ? control.MatsyaUI.Theme.highlightColor: control.MatsyaUI.Theme.textColor
     border.width: 1
     radius: control.autoExclusive ? Math.min(height, width) : 4
 
@@ -67,7 +67,7 @@ Rectangle {
             duration: 100
             easing.type: Easing.InOutCubic
         }
-    }   
+    }
 
     Image {
         id: checkImage

@@ -16,11 +16,11 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
- 
+
 import QtQuick 2.12
 import QtQuick.Controls 2.12 as QQC2
 import QtQuick.Layout 1.12
-import FishUI 1.0 as FishUI
+import MatsyaUI 1.0 as MatsyaUI
 
 QQC2.Popup {
     id: control

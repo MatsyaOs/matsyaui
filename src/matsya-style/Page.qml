@@ -2,19 +2,19 @@ import QtQuick 2.10
 import QtQuick.Controls 2.3
 import QtQuick.Controls.impl 2.3
 import QtQuick.Templates 2.3 as T
-import FishUI 1.0 as FishUI
+import MatsyaUI 1.0 as MatsyaUI
 
 T.Page {
     id: control
 
     leftPadding: 0
-    
+
     topPadding: 0
-    
+
     rightPadding: 0
-    
+
     bottomPadding: 0
-   
+
     implicitWidth: Math.max(background ? background.implicitWidth : 0,
                             Math.max(contentWidth,
                                      header && header.visible ? header.implicitWidth : 0,
@@ -28,6 +28,6 @@ T.Page {
     contentHeight: contentItem.implicitHeight || (contentChildren.length === 1 ? contentChildren[0].implicitHeight : 0)
 
     background: Rectangle {
-        color: FishUI.Theme.backgroundColor
+        color: MatsyaUI.Theme.backgroundColor
     }
 }

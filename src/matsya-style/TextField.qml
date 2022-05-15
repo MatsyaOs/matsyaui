@@ -24,29 +24,29 @@ import QtQuick 2.6
 import QtQuick.Window 2.1
 import QtQuick.Controls 2.3 as Controls
 import QtQuick.Templates 2.3 as T
-import FishUI 1.0 as FishUI
+import MatsyaUI 1.0 as MatsyaUI
 
 T.TextField {
     id: control
 
     implicitWidth: Math.max(200,
                             placeholderText ? placeholder.implicitWidth + leftPadding + rightPadding : 0)
-                            || contentWidth + leftPadding + rightPadding + FishUI.Units.extendBorderWidth
+                            || contentWidth + leftPadding + rightPadding + MatsyaUI.Units.extendBorderWidth
     implicitHeight: Math.max(contentHeight + topPadding + bottomPadding,
                              background ? background.implicitHeight : 0,
-                             placeholder.implicitHeight + topPadding + bottomPadding + FishUI.Units.extendBorderWidth)
+                             placeholder.implicitHeight + topPadding + bottomPadding + MatsyaUI.Units.extendBorderWidth)
 
     // padding: 6
-    leftPadding: FishUI.Units.smallSpacing + FishUI.Units.extendBorderWidth
-    rightPadding: FishUI.Units.smallSpacing + FishUI.Units.extendBorderWidth
+    leftPadding: MatsyaUI.Units.smallSpacing + MatsyaUI.Units.extendBorderWidth
+    rightPadding: MatsyaUI.Units.smallSpacing + MatsyaUI.Units.extendBorderWidth
 
     //Text.NativeRendering is broken on non integer pixel ratios
     // renderType: Window.devicePixelRatio % 1 !== 0 ? Text.QtRendering : Text.NativeRendering
-    renderType: FishUI.Theme.renderType
+    renderType: MatsyaUI.Theme.renderType
 
-    color: control.enabled ? FishUI.Theme.textColor : FishUI.Theme.disabledTextColor
-    selectionColor: FishUI.Theme.highlightColor
-    selectedTextColor: FishUI.Theme.highlightedTextColor
+    color: control.enabled ? MatsyaUI.Theme.textColor : MatsyaUI.Theme.disabledTextColor
+    selectionColor: MatsyaUI.Theme.highlightColor
+    selectedTextColor: MatsyaUI.Theme.highlightedTextColor
     selectByMouse: true
 
     horizontalAlignment: Text.AlignLeft
@@ -65,7 +65,7 @@ T.TextField {
 
         text: control.placeholderText
         font: control.font
-        color: FishUI.Theme.textColor
+        color: MatsyaUI.Theme.textColor
         opacity: 0.4
         horizontalAlignment: Text.AlignLeft
         verticalAlignment: control.verticalAlignment
@@ -75,24 +75,24 @@ T.TextField {
 	}
 
     background: Rectangle {
-        implicitWidth: (FishUI.Units.iconSizes.medium * 3) + FishUI.Units.smallSpacing + FishUI.Units.extendBorderWidth
-        implicitHeight: FishUI.Units.iconSizes.medium + FishUI.Units.smallSpacing + FishUI.Units.extendBorderWidth
-        // color: control.activeFocus ? Qt.lighter(FishUI.Theme.backgroundColor, 1.4) : FishUI.Theme.backgroundColor
-        color: FishUI.Theme.alternateBackgroundColor
-        radius: FishUI.Theme.smallRadius
+        implicitWidth: (MatsyaUI.Units.iconSizes.medium * 3) + MatsyaUI.Units.smallSpacing + MatsyaUI.Units.extendBorderWidth
+        implicitHeight: MatsyaUI.Units.iconSizes.medium + MatsyaUI.Units.smallSpacing + MatsyaUI.Units.extendBorderWidth
+        // color: control.activeFocus ? Qt.lighter(MatsyaUI.Theme.backgroundColor, 1.4) : MatsyaUI.Theme.backgroundColor
+        color: MatsyaUI.Theme.alternateBackgroundColor
+        radius: MatsyaUI.Theme.smallRadius
 
         border.width: 1
-        border.color: control.activeFocus ? FishUI.Theme.highlightColor : FishUI.Theme.alternateBackgroundColor
+        border.color: control.activeFocus ? MatsyaUI.Theme.highlightColor : MatsyaUI.Theme.alternateBackgroundColor
 
         // Rectangle {
         //     id: _border
         //     anchors.fill: parent
         //     color: "transparent"
-        //     border.color: control.activeFocus ? Qt.rgba(FishUI.Theme.highlightColor.r,
-        //                                                 FishUI.Theme.highlightColor.g,
-        //                                                 FishUI.Theme.highlightColor.b, 0.2) : "transparent"
-        //     border.width: FishUI.Units.extendBorderWidth
-        //     radius: FishUI.Theme.smallRadius + FishUI.Units.extendBorderWidth
+        //     border.color: control.activeFocus ? Qt.rgba(MatsyaUI.Theme.highlightColor.r,
+        //                                                 MatsyaUI.Theme.highlightColor.g,
+        //                                                 MatsyaUI.Theme.highlightColor.b, 0.2) : "transparent"
+        //     border.width: MatsyaUI.Units.extendBorderWidth
+        //     radius: MatsyaUI.Theme.smallRadius + MatsyaUI.Units.extendBorderWidth
 
         //     Behavior on border.color {
         //         ColorAnimation {
@@ -103,10 +103,10 @@ T.TextField {
 
         // Rectangle {
         //     anchors.fill: parent
-        //     anchors.margins: FishUI.Units.extendBorderWidth
-        //     radius: FishUI.Theme.smallRadius
-        //     color: FishUI.Theme.backgroundColor
-        //     border.color: control.activeFocus ? FishUI.Theme.highlightColor : Qt.tint(FishUI.Theme.textColor, Qt.rgba(FishUI.Theme.backgroundColor.r, FishUI.Theme.backgroundColor.g, FishUI.Theme.backgroundColor.b, 0.7))
+        //     anchors.margins: MatsyaUI.Units.extendBorderWidth
+        //     radius: MatsyaUI.Theme.smallRadius
+        //     color: MatsyaUI.Theme.backgroundColor
+        //     border.color: control.activeFocus ? MatsyaUI.Theme.highlightColor : Qt.tint(MatsyaUI.Theme.textColor, Qt.rgba(MatsyaUI.Theme.backgroundColor.r, MatsyaUI.Theme.backgroundColor.g, MatsyaUI.Theme.backgroundColor.b, 0.7))
         //     border.width: 1
         // }
     }

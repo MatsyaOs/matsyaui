@@ -20,7 +20,7 @@
 import QtQuick 2.12
 import QtQuick.Window 2.3
 import QtQuick.Controls 2.4
-import FishUI 1.0 as FishUI
+import MatsyaUI 1.0 as MatsyaUI
 
 Item {
     id: control

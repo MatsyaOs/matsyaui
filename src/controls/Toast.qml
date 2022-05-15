@@ -21,12 +21,12 @@ import QtQuick 2.12
 import QtQuick.Controls 2.12
 import QtQuick.Layouts 1.12
 import QtGraphicalEffects 1.0
-import FishUI 1.0 as FishUI
+import MatsyaUI 1.0 as MatsyaUI
 
 Popup {
     id: control
     x: Math.round(parent.width / 2 - width / 2)
-    y: parent.height - height - FishUI.Units.largeSpacing
+    y: parent.height - height - MatsyaUI.Units.largeSpacing
     implicitWidth: Math.max(background ? background.implicitWidth : 0,
                             contentWidth + leftPadding + rightPadding) + leftInset + rightInset
     implicitHeight: Math.max(background ? background.implicitHeight : 0 ,
@@ -34,10 +34,10 @@ Popup {
     height: implicitHeight
     width: implicitWidth
 
-    topPadding: FishUI.Units.smallSpacing
-    leftPadding: FishUI.Units.smallSpacing
-    rightPadding: FishUI.Units.smallSpacing
-    bottomPadding: FishUI.Units.largeSpacing
+    topPadding: MatsyaUI.Units.smallSpacing
+    leftPadding: MatsyaUI.Units.smallSpacing
+    rightPadding: MatsyaUI.Units.smallSpacing
+    bottomPadding: MatsyaUI.Units.largeSpacing
 
     modal: false
     closePolicy: Popup.NoAutoClose
@@ -103,10 +103,10 @@ Popup {
                 closeAnim.running = true;
             }
 
-            leftPadding: FishUI.Units.largeSpacing
-            rightPadding: FishUI.Units.largeSpacing
-            topPadding: FishUI.Units.largeSpacing
-            bottomPadding: FishUI.Units.largeSpacing
+            leftPadding: MatsyaUI.Units.largeSpacing
+            rightPadding: MatsyaUI.Units.largeSpacing
+            topPadding: MatsyaUI.Units.largeSpacing
+            bottomPadding: MatsyaUI.Units.largeSpacing
 
             Component.onCompleted: openAnim.restart()
             ParallelAnimation {
@@ -173,7 +173,7 @@ Popup {
 
                 Label {
                     id: label
-                    Layout.maximumWidth: Math.min(control.parent.width - FishUI.Units.largeSpacing * 4, implicitWidth)
+                    Layout.maximumWidth: Math.min(control.parent.width - MatsyaUI.Units.largeSpacing * 4, implicitWidth)
                     elide: Text.ElideRight
                     wrapMode: Text.WordWrap
                     maximumLineCount: 4
@@ -192,8 +192,8 @@ Popup {
             }
 
             background: Rectangle {
-                color: FishUI.Theme.backgroundColor
-                radius: FishUI.Theme.mediumRadius
+                color: MatsyaUI.Theme.backgroundColor
+                radius: MatsyaUI.Theme.mediumRadius
                 opacity: 0.9
                 layer.enabled: true
                 layer.effect: DropShadow {

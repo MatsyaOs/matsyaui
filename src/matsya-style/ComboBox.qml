@@ -40,7 +40,7 @@ import QtQuick.Controls 2.4
 import QtQuick.Controls.impl 2.4
 import QtQuick.Templates 2.12 as T
 import QtGraphicalEffects 1.0
-import FishUI 1.0 as FishUI
+import MatsyaUI 1.0 as MatsyaUI
 
 T.ComboBox {
     id: control
@@ -51,15 +51,15 @@ T.ComboBox {
                              implicitContentHeight + topPadding + bottomPadding,
                              implicitIndicatorHeight + topPadding + bottomPadding)
 
-    topInset: FishUI.Units.smallSpacing
-    bottomInset: FishUI.Units.smallSpacing
+    topInset: MatsyaUI.Units.smallSpacing
+    bottomInset: MatsyaUI.Units.smallSpacing
 
-    spacing: FishUI.Units.smallSpacing
-    padding: FishUI.Units.smallSpacing
-    leftPadding: FishUI.Units.largeSpacing
-    rightPadding: FishUI.Units.largeSpacing
+    spacing: MatsyaUI.Units.smallSpacing
+    padding: MatsyaUI.Units.smallSpacing
+    leftPadding: MatsyaUI.Units.largeSpacing
+    rightPadding: MatsyaUI.Units.largeSpacing
 
-    property bool darkMode: FishUI.Theme.darkMode
+    property bool darkMode: MatsyaUI.Theme.darkMode
 
     onDarkModeChanged: {
         updateTimer.restart()
@@ -77,7 +77,7 @@ T.ComboBox {
         x: control.mirrored ? control.leftPadding : control.width - width - control.rightPadding
         y: control.topPadding + (control.availableHeight - height) / 2
 
-        height: FishUI.Units.iconSizes.small
+        height: MatsyaUI.Units.iconSizes.small
         width: height
 
         cache: false
@@ -99,9 +99,9 @@ T.ComboBox {
     }
 
     contentItem: T.TextField {
-        padding: FishUI.Units.smallSpacing
+        padding: MatsyaUI.Units.smallSpacing
         leftPadding: 0
-        rightPadding: FishUI.Units.smallSpacing
+        rightPadding: MatsyaUI.Units.smallSpacing
 
         text: control.editable ? control.editText : control.displayText
 
@@ -112,26 +112,26 @@ T.ComboBox {
         validator: control.validator
 
         font: control.font
-        color: control.enabled ? control.FishUI.Theme.textColor : control.FishUI.Theme.highlightColor
-        selectionColor:  control.FishUI.Theme.highlightColor
-        selectedTextColor: control.FishUI.Theme.highlightedTextColor
+        color: control.enabled ? control.MatsyaUI.Theme.textColor : control.MatsyaUI.Theme.highlightColor
+        selectionColor:  control.MatsyaUI.Theme.highlightColor
+        selectedTextColor: control.MatsyaUI.Theme.highlightedTextColor
         verticalAlignment: Text.AlignVCenter
     }
 
     background: Rectangle {
-        implicitWidth:  (FishUI.Units.iconSizes.medium * 3) + FishUI.Units.largeSpacing
-        implicitHeight: FishUI.Units.iconSizes.medium + FishUI.Units.smallSpacing
+        implicitWidth:  (MatsyaUI.Units.iconSizes.medium * 3) + MatsyaUI.Units.largeSpacing
+        implicitHeight: MatsyaUI.Units.iconSizes.medium + MatsyaUI.Units.smallSpacing
 
-        radius: FishUI.Theme.smallRadius
-        color: FishUI.Theme.alternateBackgroundColor
+        radius: MatsyaUI.Theme.smallRadius
+        color: MatsyaUI.Theme.alternateBackgroundColor
 
-        border.color: control.activeFocus ? FishUI.Theme.highlightColor : color
+        border.color: control.activeFocus ? MatsyaUI.Theme.highlightColor : color
         border.width: 1
     }
 
     popup: T.Popup {
         width: Math.max(control.width, 150)
-        implicitHeight: Math.min(contentItem.implicitHeight, control.Window.height - topMargin - bottomMargin) + FishUI.Units.largeSpacing
+        implicitHeight: Math.min(contentItem.implicitHeight, control.Window.height - topMargin - bottomMargin) + MatsyaUI.Units.largeSpacing
         transformOrigin: Item.Top
 
         enter: Transition {
@@ -160,16 +160,16 @@ T.ComboBox {
             model: control.delegateModel
             currentIndex: control.highlightedIndex
             highlightMoveDuration: 0
-            topMargin: FishUI.Units.smallSpacing
-            bottomMargin: FishUI.Units.smallSpacing
-            spacing: FishUI.Units.smallSpacing
+            topMargin: MatsyaUI.Units.smallSpacing
+            bottomMargin: MatsyaUI.Units.smallSpacing
+            spacing: MatsyaUI.Units.smallSpacing
 
             T.ScrollBar.vertical: ScrollBar {}
         }
 
         background: Rectangle {
-            radius: FishUI.Theme.smallRadius
-            color: parent.FishUI.Theme.secondBackgroundColor
+            radius: MatsyaUI.Theme.smallRadius
+            color: parent.MatsyaUI.Theme.secondBackgroundColor
             border.width: 0
 
             layer.enabled: true

@@ -21,7 +21,7 @@
 
 import QtQuick 2.9
 import QtQuick.Templates 2.2 as T
-import FishUI 1.0 as FishUI
+import MatsyaUI 1.0 as MatsyaUI
 
 T.CheckBox {
     id: controlRoot
@@ -34,7 +34,7 @@ T.CheckBox {
     baselineOffset: contentItem.y + contentItem.baselineOffset
 
     padding: 1
-    spacing: FishUI.Units.smallSpacing
+    spacing: MatsyaUI.Units.smallSpacing
 
     hoverEnabled: true
 
@@ -43,13 +43,13 @@ T.CheckBox {
     }
 
 //    indicator: Item {
-//        width: FishUI.Units.iconSizes.smallMedium + FishUI.Units.smallSpacing
-//        height: FishUI.Units.iconSizes.smallMedium + FishUI.Units.smallSpacing
+//        width: MatsyaUI.Units.iconSizes.smallMedium + MatsyaUI.Units.smallSpacing
+//        height: MatsyaUI.Units.iconSizes.smallMedium + MatsyaUI.Units.smallSpacing
 
 //        CheckIndicator {
 //            anchors.centerIn: parent
-//            width: FishUI.Units.iconSizes.smallMedium
-//            height: FishUI.Units.iconSizes.smallMedium
+//            width: MatsyaUI.Units.iconSizes.smallMedium
+//            height: MatsyaUI.Units.iconSizes.smallMedium
 //            control: controlRoot
 //        }
 //    }
@@ -64,6 +64,6 @@ T.CheckBox {
         visible: controlRoot.text
         horizontalAlignment: Text.AlignLeft
         verticalAlignment: Text.AlignVCenter
-        color: FishUI.Theme.textColor
+        color: MatsyaUI.Theme.textColor
     }
 }

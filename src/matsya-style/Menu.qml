@@ -2,7 +2,7 @@ import QtQuick 2.12
 import QtQuick.Controls 2.12
 import QtQuick.Templates 2.12 as T
 import QtQuick.Window 2.12
-import FishUI 1.0 as FishUI
+import MatsyaUI 1.0 as MatsyaUI
 import QtGraphicalEffects 1.0
 
 T.Menu
@@ -15,8 +15,8 @@ T.Menu
                              contentHeight + topPadding + bottomPadding)
 
     margins: 0
-    verticalPadding: FishUI.Units.smallSpacing
-    spacing: FishUI.Units.smallSpacing
+    verticalPadding: MatsyaUI.Units.smallSpacing
+    spacing: MatsyaUI.Units.smallSpacing
     transformOrigin: !cascade ? Item.Top : (mirrored ? Item.TopRight : Item.TopLeft)
 
     delegate: MenuItem { }
@@ -70,8 +70,8 @@ T.Menu
         ScrollBar.vertical: ScrollBar {}
     }
 
-    background: FishUI.RoundedRect {
-        radius: FishUI.Theme.hugeRadius
+    background: MatsyaUI.RoundedRect {
+        radius: MatsyaUI.Theme.hugeRadius
         opacity: 1
 
         layer.enabled: true
@@ -86,9 +86,9 @@ T.Menu
     }
 
     T.Overlay.modal: Rectangle  {
-        color: Qt.rgba(control.FishUI.Theme.backgroundColor.r,
-                       control.FishUI.Theme.backgroundColor.g,
-                       control.FishUI.Theme.backgroundColor.b, 0.4)
+        color: Qt.rgba(control.MatsyaUI.Theme.backgroundColor.r,
+                       control.MatsyaUI.Theme.backgroundColor.g,
+                       control.MatsyaUI.Theme.backgroundColor.b, 0.4)
         Behavior on opacity {
             NumberAnimation {
                 duration: 150
@@ -98,9 +98,9 @@ T.Menu
     }
 
     T.Overlay.modeless: Rectangle {
-        color: Qt.rgba(control.FishUI.Theme.backgroundColor.r,
-                       control.FishUI.Theme.backgroundColor.g,
-                       control.FishUI.Theme.backgroundColor.b, 0.4)
+        color: Qt.rgba(control.MatsyaUI.Theme.backgroundColor.r,
+                       control.MatsyaUI.Theme.backgroundColor.g,
+                       control.MatsyaUI.Theme.backgroundColor.b, 0.4)
         Behavior on opacity {
             NumberAnimation {
                 duration: 150

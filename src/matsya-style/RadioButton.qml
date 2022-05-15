@@ -24,7 +24,7 @@
 import QtQuick 2.9
 import QtQuick.Controls 2.2
 import QtQuick.Templates 2.2 as T
-import FishUI 1.0 as FishUI
+import MatsyaUI 1.0 as MatsyaUI
 
 T.RadioButton {
     id: control
@@ -38,8 +38,8 @@ T.RadioButton {
                                       indicator ? indicator.implicitHeight : 0) + topPadding + bottomPadding)
     baselineOffset: contentItem.y + contentItem.baselineOffset
 
-    padding: FishUI.Units.smallSpacing
-    spacing: FishUI.Units.smallSpacing
+    padding: MatsyaUI.Units.smallSpacing
+    spacing: MatsyaUI.Units.smallSpacing
 
     opacity: control.enabled ? 1.0 : 0.5
 
@@ -56,7 +56,7 @@ T.RadioButton {
         text: control.text
         font: control.font
 
-        color: FishUI.Theme.textColor
+        color: MatsyaUI.Theme.textColor
         elide: Text.ElideRight
         visible: control.text
         horizontalAlignment: Text.AlignLeft

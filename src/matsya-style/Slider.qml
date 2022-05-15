@@ -1,7 +1,7 @@
 import QtQuick 2.6
 import QtQuick.Templates 2.3 as T
 import QtGraphicalEffects 1.0
-import FishUI 1.0 as FishUI
+import MatsyaUI 1.0 as MatsyaUI
 
 T.Slider {
     id: control
@@ -24,7 +24,7 @@ T.Slider {
         antialiasing: true
         border.width: 0
 
-        color: control.pressed ? control.FishUI.Theme.highlightColor: "white"
+        color: control.pressed ? control.MatsyaUI.Theme.highlightColor: "white"
 
         layer.enabled: true
         layer.effect: DropShadow {
@@ -53,7 +53,7 @@ T.Slider {
             width: control.horizontal ? parent.width : sliderTrackHeight
             height:control.implicitHeight+3 //!control.horizontal ? parent.height : sliderTrackHeight
             radius:control.implicitHeight / 2 // !control.horizontal ? parent.width / 2 : sliderTrackHeight / 2
-            color: FishUI.Theme.darkMode ? Qt.rgba(255, 255, 255, 0.5) :Qt.rgba(0, 0, 0, 0.1 )
+            color: MatsyaUI.Theme.darkMode ? Qt.rgba(255, 255, 255, 0.5) :Qt.rgba(0, 0, 0, 0.1 )
         }
 
         Rectangle {

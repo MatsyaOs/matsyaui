@@ -1,7 +1,7 @@
 /*
  * Copyright (C) 2021 CutefishOS Team.
  *
- * Author:    ChungZH <chungzh07@gmail.com>    
+ * Author:    ChungZH <chungzh07@gmail.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -19,28 +19,28 @@
 import QtQuick 2.12
 import QtQuick.Layouts 1.12
 import QtQuick.Controls 2.12
-import FishUI 1.0 as FishUI
+import MatsyaUI 1.0 as MatsyaUI
 
 TextField {
     id: control
 
     property list<QtObject> rightActions
 
-    rightPadding: FishUI.Units.smallSpacing + rightActionsRow.width
+    rightPadding: MatsyaUI.Units.smallSpacing + rightActionsRow.width
 
     Row {
         id: rightActionsRow
-        padding: FishUI.Units.smallSpacing
+        padding: MatsyaUI.Units.smallSpacing
         layoutDirection: Qt.RightToLeft
         anchors.right: parent.right
-        anchors.rightMargin: FishUI.Units.smallSpacing
+        anchors.rightMargin: MatsyaUI.Units.smallSpacing
         anchors.verticalCenter: parent.verticalCenter
-        height: control.implicitHeight - 2 * FishUI.Units.smallSpacing
+        height: control.implicitHeight - 2 * MatsyaUI.Units.smallSpacing
         Repeater {
             model: control.rightActions
             Icon {
-                implicitWidth: FishUI.Units.iconSizes.small
-                implicitHeight: FishUI.Units.iconSizes.small
+                implicitWidth: MatsyaUI.Units.iconSizes.small
+                implicitHeight: MatsyaUI.Units.iconSizes.small
 
                 anchors.verticalCenter: parent.verticalCenter
 
@@ -55,5 +55,5 @@ TextField {
             }
         }
     }
-    
+
 }

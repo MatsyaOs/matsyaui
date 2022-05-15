@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 CutefishOS Team.
+ * Copyright (C) 2021 CutematsyaOS Team.
  *
  * Author:     revenmartin <revenmartin@gmail.com>
  *
@@ -23,7 +23,7 @@ import QtQuick.Controls 2.4
 import QtQuick.Layouts 1.3
 import QtQuick.Shapes 1.12
 import QtGraphicalEffects 1.0
-import FishUI 1.0 as FishUI
+import MatsyaUI 1.0 as MatsyaUI
 
 Window {
     id: control
@@ -42,7 +42,7 @@ Window {
     // Window helper
     property alias compositing: windowHelper.compositing
     property var contentTopMargin: _header.height
-    property var windowRadius: compositing ? FishUI.Theme.windowRadius : 0
+    property var windowRadius: compositing ? MatsyaUI.Theme.windowRadius : 0
     property alias helper: windowHelper
 
     // Other
@@ -63,12 +63,12 @@ Window {
         }
     }
 
-    FishUI.WindowHelper {
+    MatsyaUI.WindowHelper {
         id: windowHelper
     }
 
     // Window shadows
-    FishUI.WindowShadow {
+    MatsyaUI.WindowShadow {
         view: control
         radius: _background.radius
         strength: control.active ? 1.5 : 0.9
@@ -214,7 +214,7 @@ Window {
         anchors.fill: parent
         anchors.margins: 0
         radius: !isMaximized && !isFullScreen && windowHelper.compositing ? control.windowRadius : 0
-        color: FishUI.Theme.backgroundColor
+        color: MatsyaUI.Theme.backgroundColor
         antialiasing: true
 
         Behavior on color {
@@ -229,8 +229,8 @@ Window {
     Rectangle {
         anchors.fill: parent
 
-        property var borderColor: compositing ? FishUI.Theme.darkMode ? Qt.rgba(255, 255, 255, 0.3)
-                                                                      : Qt.rgba(0, 0, 0, 0.2) : FishUI.Theme.darkMode ? Qt.rgba(255, 255, 255, 0.15)
+        property var borderColor: compositing ? MatsyaUI.Theme.darkMode ? Qt.rgba(255, 255, 255, 0.3)
+                                                                      : Qt.rgba(0, 0, 0, 0.2) : MatsyaUI.Theme.darkMode ? Qt.rgba(255, 255, 255, 0.15)
                                                                                                                       : Qt.rgba(0, 0, 0, 0.15)
         color: "transparent"
         radius: control.windowRadius
@@ -289,13 +289,13 @@ Window {
                 }
 
                 RowLayout {
-                    spacing: FishUI.Units.smallSpacing
+                    spacing: MatsyaUI.Units.smallSpacing
                     Layout.alignment: Qt.AlignTop
 
                     // Window buttons
                     RoundImageButton {
                         size: _header.buttonSize
-                        source: "qrc:/fishui/kit/images/" + (FishUI.Theme.darkMode ? "dark/" : "light/") + "minimize.svg"
+                        source: "qrc:/matsyaui/kit/images/" + (MatsyaUI.Theme.darkMode ? "dark/" : "light/") + "minimize.svg"
                         onClicked: windowHelper.minimizeWindow(control)
                         visible: control.minimizeButtonVisible
                         Layout.alignment: Qt.AlignTop
@@ -307,8 +307,8 @@ Window {
 
                     RoundImageButton {
                         size: _header.buttonSize
-                        source: "qrc:/fishui/kit/images/" +
-                            (FishUI.Theme.darkMode ? "dark/" : "light/") +
+                        source: "qrc:/matsyaui/kit/images/" +
+                            (MatsyaUI.Theme.darkMode ? "dark/" : "light/") +
                             (control.visibility === Window.Maximized ? "restore.svg" : "maximize.svg")
                         onClicked: control.toggleMaximized()
                         visible: !control.isFullScreen &&  control.minimumWidth !== control.maximumWidth && control.maximumHeight !== control.minimumHeight
@@ -321,7 +321,7 @@ Window {
 
                     RoundImageButton {
                         size: _header.buttonSize
-                        source: "qrc:/fishui/kit/images/" + (FishUI.Theme.darkMode ? "dark/" : "light/") + "close.svg"
+                        source: "qrc:/matsyaui/kit/images/" + (MatsyaUI.Theme.darkMode ? "dark/" : "light/") + "close.svg"
                         onClicked: control.close()
                         // visible: !control.isFullScreen
                         Layout.alignment: Qt.AlignTop
@@ -374,7 +374,7 @@ Window {
 
     function showPassiveNotification(message, timeout, actionText, callBack) {
         if (!internal.passiveNotification) {
-            var component = Qt.createComponent("qrc:/fishui/kit/Toast.qml")
+            var component = Qt.createComponent("qrc:/matsyaui/kit/Toast.qml")
             internal.passiveNotification = component.createObject(control)
         }
 

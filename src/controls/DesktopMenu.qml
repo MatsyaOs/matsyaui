@@ -16,13 +16,13 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
- 
+
 import QtQuick 2.12
 import QtQuick.Layouts 1.12
 import QtQuick.Controls 2.12
-import FishUI 1.0 as FishUI
+import MatsyaUI 1.0 as MatsyaUI
 
-FishUI.MenuPopupWindow {
+MatsyaUI.MenuPopupWindow {
     id: control
 
     default property alias content : _mainLayout.data
@@ -30,28 +30,28 @@ FishUI.MenuPopupWindow {
     Rectangle {
         id: _background
         anchors.fill: parent
-        color: FishUI.Theme.secondBackgroundColor
-        radius: windowHelper.compositing ? FishUI.Theme.hugeRadius : 0
+        color: MatsyaUI.Theme.secondBackgroundColor
+        radius: windowHelper.compositing ? MatsyaUI.Theme.hugeRadius : 0
         opacity: windowHelper.compositing ? 0.6 : 1
         border.color: _background.borderColor
-        border.width: 1 / FishUI.Units.devicePixelRatio
-        border.pixelAligned: FishUI.Units.devicePixelRatio > 1 ? false : true
+        border.width: 1 / MatsyaUI.Units.devicePixelRatio
+        border.pixelAligned: MatsyaUI.Units.devicePixelRatio > 1 ? false : true
 
-        property var borderColor: windowHelper.compositing ? FishUI.Theme.darkMode ? Qt.rgba(255, 255, 255, 0.3)
-                                                                      : Qt.rgba(0, 0, 0, 0.2) : FishUI.Theme.darkMode ? Qt.rgba(255, 255, 255, 0.1)
+        property var borderColor: windowHelper.compositing ? MatsyaUI.Theme.darkMode ? Qt.rgba(255, 255, 255, 0.3)
+                                                                      : Qt.rgba(0, 0, 0, 0.2) : MatsyaUI.Theme.darkMode ? Qt.rgba(255, 255, 255, 0.1)
                                                                                                                       : Qt.rgba(0, 0, 0, 0.05)
 
-        FishUI.WindowHelper {
+        MatsyaUI.WindowHelper {
             id: windowHelper
         }
 
-        FishUI.WindowShadow {
+        MatsyaUI.WindowShadow {
             view: control
             geometry: Qt.rect(control.x, control.y, control.width, control.height)
             radius: _background.radius
         }
 
-        FishUI.WindowBlur {
+        MatsyaUI.WindowBlur {
             view: control
             geometry: Qt.rect(control.x, control.y, control.width, control.height)
             windowRadius: _background.radius

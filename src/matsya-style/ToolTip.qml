@@ -21,33 +21,44 @@
 
 
 import QtQuick 2.6
+import QtGraphicalEffects 1.0
+import QtQuick.Controls 2.3 as Controls
 import QtQuick.Templates 2.3 as T
-import FishUI 1.0 as FishUI
+import MatsyaUI 1.0 as MatsyaUI
 
-T.DialogButtonBox {
-    id: control
+T.ToolTip {
+    id: controlRoot
+
+    x: parent ? (parent.width - implicitWidth) / 2 : 0
+    y: -implicitHeight - MatsyaUI.Units.smallSpacing * 1.5
 
     implicitWidth: contentItem.implicitWidth + leftPadding + rightPadding
     implicitHeight: contentItem.implicitHeight + topPadding + bottomPadding
 
-    spacing: FishUI.Units.smallSpacing
-    padding: FishUI.Units.smallSpacing
-    alignment: Qt.AlignRight
+    margins: 6
+    padding: 6
 
-    delegate: Button {
-        width: Math.min(implicitWidth, control.width / control.count - control.padding - control.spacing * control.count)
+    closePolicy: T.Popup.CloseOnEscape | T.Popup.CloseOnPressOutsideParent | T.Popup.CloseOnReleaseOutsideParent
+
+    contentItem: Controls.Label {
+        text: controlRoot.text
+        font: controlRoot.font
+        color: MatsyaUI.Theme.textColor
     }
 
-    contentItem: ListView {
-        implicitWidth: contentWidth
-        implicitHeight: 32
+    background: Rectangle {
+        opacity: 0.95
+        color: MatsyaUI.Theme.secondBackgroundColor
+        radius: MatsyaUI.Theme.smallRadius
 
-        model: control.contentModel
-        spacing: control.spacing
-        orientation: ListView.Horizontal
-        boundsBehavior: Flickable.StopAtBounds
-        snapMode: ListView.SnapToItem
+        layer.enabled: true
+        layer.effect: DropShadow {
+            transparentBorder: true
+            radius: 8
+            samples: 12
+            horizontalOffset: 0
+            verticalOffset: 0
+            color: Qt.rgba(0, 0, 0, 0.15)
+        }
     }
-
-    background: Item {}
 }

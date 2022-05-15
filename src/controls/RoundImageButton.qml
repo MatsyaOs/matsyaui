@@ -20,7 +20,7 @@
 import QtQuick 2.12
 import QtQuick.Window 2.3
 import QtQuick.Controls 2.4
-import FishUI 1.0 as FishUI
+import MatsyaUI 1.0 as MatsyaUI
 
 Item {
     id: control
@@ -32,10 +32,10 @@ Item {
 
     property alias background: _background
     property color backgroundColor: "transparent"
-    property color hoveredColor: FishUI.Theme.darkMode ? Qt.lighter(FishUI.Theme.backgroundColor, 2)
-                                                       : Qt.darker(FishUI.Theme.backgroundColor, 1.1)
-    property color pressedColor: FishUI.Theme.darkMode ? Qt.lighter(FishUI.Theme.backgroundColor, 1.5)
-                                                       : Qt.darker(FishUI.Theme.backgroundColor, 1.2)
+    property color hoveredColor: MatsyaUI.Theme.darkMode ? Qt.lighter(MatsyaUI.Theme.backgroundColor, 2)
+                                                       : Qt.darker(MatsyaUI.Theme.backgroundColor, 1.1)
+    property color pressedColor: MatsyaUI.Theme.darkMode ? Qt.lighter(MatsyaUI.Theme.backgroundColor, 1.5)
+                                                       : Qt.darker(MatsyaUI.Theme.backgroundColor, 1.2)
     property alias source: _image.source
     property alias image: _image
     signal clicked()

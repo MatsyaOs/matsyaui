@@ -22,7 +22,7 @@ import QtQml 2.15
 import QtQuick.Window 2.15
 import QtQuick.Controls 2.15
 import QtQuick.Layouts 1.15
-import FishUI 1.0 as FishUI
+import MatsyaUI 1.0 as MatsyaUI
 
 Item {
     id: control
@@ -37,7 +37,7 @@ Item {
 
     RowLayout {
         anchors.fill: parent
-        spacing: FishUI.Units.smallSpacing / 2
+        spacing: MatsyaUI.Units.smallSpacing / 2
 
         ListView {
             id: _listView
@@ -60,8 +60,8 @@ Item {
             Layout.preferredHeight: 31
             Layout.preferredWidth: visible ? height : 0
 
-            sourceComponent: FishUI.RoundImageButton {
-                source: "qrc:/images/" + (FishUI.Theme.darkMode ? "dark/" : "light/") + "add.svg"
+            sourceComponent: MatsyaUI.RoundImageButton {
+                source: "qrc:/images/" + (MatsyaUI.Theme.darkMode ? "dark/" : "light/") + "add.svg"
                 onClicked: control.newTabClicked()
                 iconMargins: 2
             }

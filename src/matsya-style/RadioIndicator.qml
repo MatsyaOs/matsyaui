@@ -22,19 +22,19 @@
 
 import QtQuick 2.9
 import QtQuick.Controls 2.2
-import FishUI 1.0 as FishUI
+import MatsyaUI 1.0 as MatsyaUI
 
 Rectangle {
-    implicitWidth: FishUI.Units.iconSizes.small
-    implicitHeight: FishUI.Units.iconSizes.small
+    implicitWidth: MatsyaUI.Units.iconSizes.small
+    implicitHeight: MatsyaUI.Units.iconSizes.small
 
     property Item control
 
     radius: width / 2
-    color: control.FishUI.Theme.backgroundColor
+    color: control.MatsyaUI.Theme.backgroundColor
     border.color: control.down
-        ? control.checked ? "transparent" : control.FishUI.Theme.highlightColor
-        : control.checked ? control.FishUI.Theme.highlightColor : control.FishUI.Theme.disabledTextColor
+        ? control.checked ? "transparent" : control.MatsyaUI.Theme.highlightColor
+        : control.checked ? control.MatsyaUI.Theme.highlightColor : control.MatsyaUI.Theme.disabledTextColor
 
     border.width: 1
 
@@ -43,7 +43,7 @@ Rectangle {
         radius: parent.radius
         scale: control.checked ? 1.0 : 0.0
 
-        color: control.FishUI.Theme.highlightColor
+        color: control.MatsyaUI.Theme.highlightColor
 
         Behavior on scale {
             NumberAnimation {

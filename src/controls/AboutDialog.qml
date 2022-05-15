@@ -2,9 +2,9 @@ import QtQuick 2.12
 import QtQuick.Controls 2.12
 import QtQuick.Layouts 1.12
 import QtGraphicalEffects 1.0
-import FishUI 1.0 as FishUI
+import MatsyaUI 1.0 as MatsyaUI
 
-FishUI.Window {
+MatsyaUI.Window {
     id: control
 
     width: 300
@@ -25,12 +25,12 @@ FishUI.Window {
     property var iconSource
     property string name
     property string description
-    property string link: "https://cutefishos.com"
+    property string link: "https://matsyaos.com"
     property var contentHeight: _mainLayout.implicitHeight + control.header.height * 2
 
     background.opacity: control.compositing ? 0.6 : 1.0
 
-    FishUI.WindowBlur {
+    MatsyaUI.WindowBlur {
         view: control
         geometry: Qt.rect(control.x, control.y, control.width, control.height)
         windowRadius: control.windowRadius
@@ -58,7 +58,7 @@ FishUI.Window {
         }
 
         Item {
-            height: FishUI.Units.largeSpacing
+            height: MatsyaUI.Units.largeSpacing
         }
 
         Label {
@@ -75,7 +75,7 @@ FishUI.Window {
         Label {
             text: "<a href=\"%1\">%1</a>".arg(control.link)
             Layout.alignment: Qt.AlignHCenter
-            linkColor: FishUI.Theme.highlightColor
+            linkColor: MatsyaUI.Theme.highlightColor
 
             MouseArea {
                 anchors.fill: parent

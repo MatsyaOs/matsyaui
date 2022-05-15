@@ -20,22 +20,22 @@
 pragma Singleton
 
 import QtQuick 2.4
-import FishUI.Core 1.0 as FishUICore
+import MatsyaUI.Core 1.0 as MatsyaUICore
 
 QtObject {
     id: theme
 
-    property real devicePixelRatio: FishUICore.ThemeManager.devicePixelRatio
+    property real devicePixelRatio: MatsyaUICore.ThemeManager.devicePixelRatio
 
-    property bool darkMode: FishUICore.ThemeManager.darkMode
+    property bool darkMode: MatsyaUICore.ThemeManager.darkMode
 
-    property color blueColor: FishUICore.ThemeManager.blueColor
-    property color redColor: FishUICore.ThemeManager.redColor
-    property color greenColor: FishUICore.ThemeManager.greenColor
-    property color purpleColor: FishUICore.ThemeManager.purpleColor
-    property color pinkColor: FishUICore.ThemeManager.pinkColor
-    property color orangeColor: FishUICore.ThemeManager.orangeColor
-    property color greyColor: FishUICore.ThemeManager.greyColor
+    property color blueColor: MatsyaUICore.ThemeManager.blueColor
+    property color redColor: MatsyaUICore.ThemeManager.redColor
+    property color greenColor: MatsyaUICore.ThemeManager.greenColor
+    property color purpleColor: MatsyaUICore.ThemeManager.purpleColor
+    property color pinkColor: MatsyaUICore.ThemeManager.pinkColor
+    property color orangeColor: MatsyaUICore.ThemeManager.orangeColor
+    property color greyColor: MatsyaUICore.ThemeManager.greyColor
 
     property color backgroundColor: darkMode ? "#1C1C1D" : "#F3F4F9"
     property color secondBackgroundColor: darkMode ? "#2C2C2D" : "#FFFFFF"
@@ -44,7 +44,7 @@ QtObject {
     property color textColor: darkMode ? "#FFFFFF" : "#323238"
     property color disabledTextColor: darkMode ? "#888888" : "#64646E"
 
-    property color highlightColor: FishUICore.ThemeManager.accentColor
+    property color highlightColor: MatsyaUICore.ThemeManager.accentColor
     property color highlightedTextColor: darkMode ? "#FFFFFF" : "#FFFFFF"
 
     property color activeTextColor: "#0176D3"
@@ -55,8 +55,8 @@ QtObject {
     property color visitedLinkColor: "#2196F3"
     property color visitedLinkBackgroundColor: "#2196F3"
 
-    property real fontSize: FishUICore.ThemeManager.fontSize
-    property string fontFamily: FishUICore.ThemeManager.fontFamily
+    property real fontSize: MatsyaUICore.ThemeManager.fontSize
+    property string fontFamily: MatsyaUICore.ThemeManager.fontFamily
 
     property real smallRadius: 8.0
     property real mediumRadius: 10.0

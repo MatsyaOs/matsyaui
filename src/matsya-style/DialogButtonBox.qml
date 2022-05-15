@@ -21,44 +21,33 @@
 
 
 import QtQuick 2.6
-import QtGraphicalEffects 1.0
-import QtQuick.Controls 2.3 as Controls
 import QtQuick.Templates 2.3 as T
-import FishUI 1.0 as FishUI
+import MatsyaUI 1.0 as MatsyaUI
 
-T.ToolTip {
-    id: controlRoot
-
-    x: parent ? (parent.width - implicitWidth) / 2 : 0
-    y: -implicitHeight - FishUI.Units.smallSpacing * 1.5
+T.DialogButtonBox {
+    id: control
 
     implicitWidth: contentItem.implicitWidth + leftPadding + rightPadding
     implicitHeight: contentItem.implicitHeight + topPadding + bottomPadding
 
-    margins: 6
-    padding: 6
+    spacing: MatsyaUI.Units.smallSpacing
+    padding: MatsyaUI.Units.smallSpacing
+    alignment: Qt.AlignRight
 
-    closePolicy: T.Popup.CloseOnEscape | T.Popup.CloseOnPressOutsideParent | T.Popup.CloseOnReleaseOutsideParent
-
-    contentItem: Controls.Label {
-        text: controlRoot.text
-        font: controlRoot.font
-        color: FishUI.Theme.textColor
+    delegate: Button {
+        width: Math.min(implicitWidth, control.width / control.count - control.padding - control.spacing * control.count)
     }
 
-    background: Rectangle {
-        opacity: 0.95
-        color: FishUI.Theme.secondBackgroundColor
-        radius: FishUI.Theme.smallRadius
+    contentItem: ListView {
+        implicitWidth: contentWidth
+        implicitHeight: 32
 
-        layer.enabled: true
-        layer.effect: DropShadow {
-            transparentBorder: true
-            radius: 8
-            samples: 12
-            horizontalOffset: 0
-            verticalOffset: 0
-            color: Qt.rgba(0, 0, 0, 0.15)
-        }
+        model: control.contentModel
+        spacing: control.spacing
+        orientation: ListView.Horizontal
+        boundsBehavior: Flickable.StopAtBounds
+        snapMode: ListView.SnapToItem
     }
+
+    background: Item {}
 }

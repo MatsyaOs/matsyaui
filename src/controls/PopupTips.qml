@@ -20,7 +20,7 @@
 import QtQuick 2.4
 import QtQuick.Window 2.3
 import QtQuick.Controls 2.4
-import FishUI 1.0 as FishUI
+import MatsyaUI 1.0 as MatsyaUI
 
 Window {
     id: control
@@ -32,24 +32,24 @@ Window {
     property alias backgroundOpacity: _background.opacity
     property alias backgroundColor: _background.color
     property alias blurEnabled: windowBlur.enabled
-    property var borderColor: windowHelper.compositing ? FishUI.Theme.darkMode ? Qt.rgba(255, 255, 255, 0.3)
-                                                                  : Qt.rgba(0, 0, 0, 0.2) : FishUI.Theme.darkMode ? Qt.rgba(255, 255, 255, 0.1)
+    property var borderColor: windowHelper.compositing ? MatsyaUI.Theme.darkMode ? Qt.rgba(255, 255, 255, 0.3)
+                                                                  : Qt.rgba(0, 0, 0, 0.2) : MatsyaUI.Theme.darkMode ? Qt.rgba(255, 255, 255, 0.1)
                                                                                                                   : Qt.rgba(0, 0, 0, 0.05)
     flags: Qt.WindowStaysOnTopHint | Qt.WindowDoesNotAcceptFocus | Qt.ToolTip
-    width: label.implicitWidth + FishUI.Units.largeSpacing * 1.5
-    height: label.implicitHeight + FishUI.Units.largeSpacing * 1.5
+    width: label.implicitWidth + MatsyaUI.Units.largeSpacing * 1.5
+    height: label.implicitHeight + MatsyaUI.Units.largeSpacing * 1.5
 
-    FishUI.WindowHelper {
+    MatsyaUI.WindowHelper {
         id: windowHelper
     }
 
-    FishUI.WindowShadow {
+    MatsyaUI.WindowShadow {
         view: control
         geometry: Qt.rect(control.x, control.y, control.width, control.height)
         radius: _background.radius
     }
 
-    FishUI.WindowBlur {
+    MatsyaUI.WindowBlur {
         id: windowBlur
         view: control
         enabled: true
@@ -60,8 +60,8 @@ Window {
     Rectangle {
         id: _background
         anchors.fill: parent
-        color: FishUI.Theme.secondBackgroundColor
-        radius: windowHelper.compositing ? FishUI.Theme.mediumRadius : 0
+        color: MatsyaUI.Theme.secondBackgroundColor
+        radius: windowHelper.compositing ? MatsyaUI.Theme.mediumRadius : 0
         border.color: control.borderColor
         border.width: 1 / Screen.devicePixelRatio
         border.pixelAligned: Screen.devicePixelRatio > 1 ? false : true
@@ -78,7 +78,7 @@ Window {
         id: label
         anchors.centerIn: parent
         text: control.popupText
-        color: FishUI.Theme.textColor
+        color: MatsyaUI.Theme.textColor
     }
 
     onPositionChanged: adjustCorrectLocation()
@@ -89,11 +89,11 @@ Window {
 
         // left
         if (posX <= Screen.virtualX)
-            posX = Screen.virtualX + FishUI.Units.smallSpacing
+            posX = Screen.virtualX + MatsyaUI.Units.smallSpacing
 
         // top
         if (posY <= Screen.virtualY)
-            posY = Screen.virtualY + FishUI.Units.smallSpacing
+            posY = Screen.virtualY + MatsyaUI.Units.smallSpacing
 
         // right
         if (posX + control.width > Screen.virtualX + Screen.width)
