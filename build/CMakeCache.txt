@@ -193,7 +193,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=matsyaui
+CMAKE_PROJECT_NAME:STATIC=MatsyaUI
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION:STATIC=1.0
@@ -299,8 +299,14 @@ ECM_DIR:PATH=/usr/share/ECM/cmake
 //The directory containing a CMake configuration file for KF5WindowSystem.
 KF5WindowSystem_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/KF5WindowSystem
 
+//Value Computed by CMake
+MatsyaUI_BINARY_DIR:STATIC=/home/tokyo/Documents/GitHub/matsyaui/build
+
 //Dependencies for the target
 MatsyaUI_LIB_DEPENDS:STATIC=general;Qt5::Core;general;Qt5::Gui;general;Qt5::DBus;general;Qt5::Widgets;general;Qt5::Qml;general;Qt5::Quick;general;Qt5::QuickControls2;general;Qt5::X11Extras;general;KF5::WindowSystem;
+
+//Value Computed by CMake
+MatsyaUI_SOURCE_DIR:STATIC=/home/tokyo/Documents/GitHub/matsyaui
 
 //The directory containing a CMake configuration file for Qt5Core.
 Qt5Core_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Core
@@ -334,12 +340,6 @@ Qt5X11Extras_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5X11Extras
 
 //The directory containing a CMake configuration file for Qt5.
 Qt5_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5
-
-//Value Computed by CMake
-matsyaui_BINARY_DIR:STATIC=/home/tokyo/Documents/GitHub/matsyaui/build
-
-//Value Computed by CMake
-matsyaui_SOURCE_DIR:STATIC=/home/tokyo/Documents/GitHub/matsyaui
 
 
 ########################

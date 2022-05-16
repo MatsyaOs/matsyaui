@@ -153,7 +153,6 @@ src/MatsyaUI_autogen/SYRDMENBTL/qrc_style.cpp: ../src/matsya-style/Page.qml
 src/MatsyaUI_autogen/SYRDMENBTL/qrc_style.cpp: ../src/matsya-style/TextArea.qml
 src/MatsyaUI_autogen/SYRDMENBTL/qrc_style.cpp: ../src/matsya-style/Switch.qml
 src/MatsyaUI_autogen/SYRDMENBTL/qrc_style.cpp: ../src/matsya-style/Slider.qml
-src/MatsyaUI_autogen/SYRDMENBTL/qrc_style.cpp: ../src/matsya-style/Slider.qml
 src/MatsyaUI_autogen/SYRDMENBTL/qrc_style.cpp: ../src/matsya-style/RadioIndicator.qml
 src/MatsyaUI_autogen/SYRDMENBTL/qrc_style.cpp: ../src/matsya-style/Menu.qml
 src/MatsyaUI_autogen/SYRDMENBTL/qrc_style.cpp: ../src/matsya-style/TabButton.qml

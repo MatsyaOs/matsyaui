@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.5)
 
 set(MATSYAUI_VERSION 1.0)
-project(matsyaui VERSION ${MATSYAUI_VERSION})
+project(MatsyaUI VERSION ${MATSYAUI_VERSION})
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 set(CMAKE_AUTOUIC ON)

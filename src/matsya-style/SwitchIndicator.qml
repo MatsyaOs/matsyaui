@@ -8,7 +8,7 @@ Item {
 
     property Item control
     property alias handle: handle
-    property color bgColor : control.checked ? MatsyaUI.Theme.highlightColor : Qt.rgba(MatsyaUI.Theme.textColor.r, 
+    property color bgColor : control.checked ? MatsyaUI.Theme.highlightColor : Qt.rgba(MatsyaUI.Theme.textColor.r,
                                                                                      MatsyaUI.Theme.textColor.g,
                                                                                      MatsyaUI.Theme.textColor.b, 0.2)
     Rectangle {
@@ -33,6 +33,13 @@ Item {
         height: 16
         radius: width / 2
         color: control.enabled ? "white" : "transparent"
+        scale: control.pressed ? 0.8 : 1
+
+        Behavior on scale {
+            NumberAnimation {
+                duration: 100
+            }
+        }
 
         Behavior on x {
             enabled: !control.pressed

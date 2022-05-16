@@ -1,6 +1,5 @@
 <RCC>
     <qresource prefix="/matsyaui/kit">
-        
         <file alias="AboutDialog.qml">controls/AboutDialog.qml</file>
         <file alias="BusyIndicator.qml">controls/BusyIndicator.qml</file>
         <file alias="Icon.qml">controls/Icon.qml</file>
@@ -11,7 +10,7 @@
         <file alias="Units.qml">controls/Units.qml</file>
         <file alias="Window.qml">controls/Window.qml</file>
         <file alias="RoundImageButton.qml">controls/RoundImageButton.qml</file>
-        
+
         <file alias="MatsyaIconButton.qml">controls/MatsyaIconButton.qml</file>
         <file alias="Matsyaslider.qml">controls/Matsyaslider.qml</file>
         <file alias="Hideable.qml">controls/Hideable.qml</file>
@@ -19,7 +18,7 @@
         <file alias="MatsyaWindow.qml">controls/MatsyaWindow.qml</file>
         <file alias="Matsyaicon.qml">controls/Matsyaicon.qml</file>
         
-        
+
         <file alias="TabBar.qml">controls/TabBar.qml</file>
         <file alias="TabButton.qml">controls/TabButton.qml</file>
         <file alias="TabCloseButton.qml">controls/TabCloseButton.qml</file>
@@ -41,7 +40,8 @@
         <file>images/toast/info.svg</file>
         <file>images/toast/success.svg</file>
         <file>images/toast/warn.svg</file>
-        
+
+
          <file>images/dark/media-playback-pause-symbolic.svg</file>
         <file>images/dark/media-playback-start-symbolic.svg</file>
         <file>images/dark/media-skip-backward-symbolic.svg</file>

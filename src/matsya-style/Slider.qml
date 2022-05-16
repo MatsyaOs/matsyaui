@@ -24,7 +24,7 @@ T.Slider {
         antialiasing: true
         border.width: 0
 
-        color: control.pressed ? control.MatsyaUI.Theme.highlightColor: "white"
+        color: control.pressed ? "#FAFAFA" : "white"
 
         layer.enabled: true
         layer.effect: DropShadow {
@@ -51,18 +51,18 @@ T.Slider {
             x: control.horizontal ? 0 : (parent.width - width) / 2
             y: control.horizontal ? (parent.height - height) / 2 : 0
             width: control.horizontal ? parent.width : sliderTrackHeight
-            height:control.implicitHeight+3 //!control.horizontal ? parent.height : sliderTrackHeight
-            radius:control.implicitHeight / 2 // !control.horizontal ? parent.width / 2 : sliderTrackHeight / 2
-            color: MatsyaUI.Theme.darkMode ? Qt.rgba(255, 255, 255, 0.5) :Qt.rgba(0, 0, 0, 0.1 )
+            height: !control.horizontal ? parent.height : sliderTrackHeight
+            radius: !control.horizontal ? parent.width / 2 : sliderTrackHeight / 2
+            color: MatsyaUI.Theme.darkMode ? Qt.rgba(255, 255, 255, 0.5) : Qt.rgba(0, 0, 0, 0.1)
         }
 
         Rectangle {
             x: control.horizontal ? 0 : (parent.width - width) / 2
             y: control.horizontal ? (parent.height - height) / 2 : control.visualPosition * parent.height
             width: control.horizontal ? control.position * parent.width : sliderTrackHeight
-            height: control.implicitHeight // !control.horizontal ? control.position * //parent.height : sliderTrackHeight
-            radius:control.implicitHeight / 2 // !control.horizontal ? parent.width / 2 : sliderTrackHeight / 2
-            color: "white"
+            height: !control.horizontal ? control.position * parent.height : sliderTrackHeight
+            radius: !control.horizontal ? parent.width / 2 : sliderTrackHeight / 2
+            color: control.MatsyaUI.Theme.highlightColor
         }
     }
 }

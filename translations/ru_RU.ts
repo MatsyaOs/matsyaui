@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="fr_FR">
+<TS version="2.1">
 <context>
     <name>TextField</name>
     <message>
         <location filename="../src/fish-style/TextField.qml" line="62"/>
         <source>Cut</source>
-        <translation>Couper</translation>
+        <translation type="unfinished">Вырезать</translation>
     </message>
     <message>
         <location filename="../src/fish-style/TextField.qml" line="68"/>
         <source>Copy</source>
-        <translation>Copier</translation>
+        <translation type="unfinished">Копировать</translation>
     </message>
     <message>
         <location filename="../src/fish-style/TextField.qml" line="74"/>
         <source>Paste</source>
-        <translation>Coller</translation>
+        <translation type="unfinished">Вставить</translation>
     </message>
     <message>
         <location filename="../src/fish-style/TextField.qml" line="79"/>
         <source>Select All</source>
-        <translation>Tout sélectionner</translation>
+        <translation type="unfinished">Выбрать всё</translation>
     </message>
 </context>
 </TS>

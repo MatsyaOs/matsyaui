@@ -25,6 +25,6 @@ Controls.TextField {
     id: control
 
     background: Rectangle {
-
+        
     }
 }

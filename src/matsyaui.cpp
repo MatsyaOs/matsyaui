@@ -72,8 +72,8 @@ void MatsyaUI::registerTypes(const char *uri)
     qmlRegisterType(componentUrl(QStringLiteral("HowerColor.qml")), uri, 1, 0, "HWC");
     qmlRegisterType(componentUrl(QStringLiteral("mprisfullview.qml")), uri, 1, 0, "MFV");
 
-    
-    
+
+
     qmlRegisterType(componentUrl(QStringLiteral("AboutDialog.qml")), uri, 1, 0, "AboutDialog");
     qmlRegisterType(componentUrl(QStringLiteral("ActionTextField.qml")), uri, 1, 0, "ActionTextField");
     qmlRegisterType(componentUrl(QStringLiteral("BusyIndicator.qml")), uri, 1, 0, "BusyIndicator");

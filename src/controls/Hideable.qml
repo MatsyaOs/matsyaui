@@ -1,8 +1,6 @@
-
 import QtQuick 2.4
 import QtQuick.Layouts 1.3
 import QtGraphicalEffects 1.0
-
 Item {
     id: _root
     implicitHeight: shown ? _contentLayout.implicitHeight : 0
@@ -37,3 +35,4 @@ Item {
         shown = !shown
     }
 }
+

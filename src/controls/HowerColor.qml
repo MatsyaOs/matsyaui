@@ -32,5 +32,3 @@ Item {
                 opacity: 0.8
             }}
 
-
- 

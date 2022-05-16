@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 CutematsyaOS Team.
+ * Copyright (C) 2021 CutefishOS Team.
  *
  * Author:     revenmartin <revenmartin@gmail.com>
  *
@@ -281,20 +281,17 @@ Window {
             RowLayout {
                 anchors.fill: parent
                 spacing: 0
-
                 Item {
-                    id: _headerContent
-                    Layout.fillHeight: true
-                    Layout.fillWidth: true
+                    width: _header.spacing
+                }Item {
+                    width: _header.spacing
                 }
-
-                RowLayout {
-                    spacing:3// MatsyaUI.Units.smallSpacing
+RowLayout {
+                    spacing: MatsyaUI.Units.smallSpacing
                     Layout.alignment: Qt.AlignTop
-
+                    
                     // Window buttons
- // Window buttons
-                   Matsyaicon {
+                    Matsyaicon {
                         size:22 //_header.buttonSize
                         source: "qrc:/matsyaui/kit/images/" + (MatsyaUI.Theme.darkMode ? "dark/" : "light/") + "clos"
                         onClicked: control.close()
@@ -331,20 +328,11 @@ Window {
                         iconMargins: 2
                     }
 
-
                 }
                 Item {
-                    id: _headerContent1
+                    id: _headerContent
                     Layout.fillHeight: true
                     Layout.fillWidth: true
-                }
-
-
-                Item {
-                    width: _header.spacing
-                }
-                Item {
-                    width: _header.spacing
                 }
                 Item {
                     width: _header.spacing

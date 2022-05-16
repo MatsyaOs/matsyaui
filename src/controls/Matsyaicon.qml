@@ -1,5 +1,3 @@
-
-
 import QtQuick 2.12
 import QtQuick.Window 2.3
 import QtQuick.Controls 2.4

@@ -1,7 +1,7 @@
-Source: matsyaui
+Source: fishui
 Section: devel
 Priority: optional
-Maintainer: matsyaOS <support@matsyaos.com>
+Maintainer: CutefishOS <support@cutefishos.com>
 Build-Depends: cmake,
                debhelper (>= 9),
                extra-cmake-modules,
@@ -17,12 +17,12 @@ Build-Depends: cmake,
                qttools5-dev,
                qttools5-dev-tools
 Standards-Version: 4.5.0
-Homepage: https://matsyaos.com
+Homepage: https://cutefishos.com
 
-Package: matsyaui
+Package: fishui
 Architecture: any
 Depends: qml-module-qtquick-controls2,
          qml-module-qtquick2,
          ${misc:Depends},
          ${shlibs:Depends}
-Description: MatsyaOS UIKit
+Description: CutefishOS UIKit
