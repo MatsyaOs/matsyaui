@@ -1,4 +1,4 @@
-# Install script for directory: /home/tokyo/clone/cuteclone/fishui/src
+# Install script for directory: /home/tokyo/clone/satya/matsyaui/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,17 +43,17 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/libFishUI.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/libFishUI.so")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/libMatsyaUI.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/libMatsyaUI.so")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/libFishUI.so"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/libMatsyaUI.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu" TYPE SHARED_LIBRARY FILES "/home/tokyo/clone/cuteclone/fishui/build/src/libFishUI.so")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/libFishUI.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/libFishUI.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu" TYPE SHARED_LIBRARY FILES "/home/tokyo/clone/satya/matsyaui/build/src/libMatsyaUI.so")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/libMatsyaUI.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/libMatsyaUI.so")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/libFishUI.so")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/libMatsyaUI.so")
     endif()
   endif()
 endif()
@@ -62,25 +62,25 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}/usr/lib/x86_64-linux-gnu/qt5/qml/FishUI/libFishUI.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/usr/lib/x86_64-linux-gnu/qt5/qml/FishUI/libFishUI.so")
+  if(EXISTS "$ENV{DESTDIR}/usr/lib/x86_64-linux-gnu/qt5/qml/MatsyaUI/libMatsyaUI.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/usr/lib/x86_64-linux-gnu/qt5/qml/MatsyaUI/libMatsyaUI.so")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}/usr/lib/x86_64-linux-gnu/qt5/qml/FishUI/libFishUI.so"
+         FILE "$ENV{DESTDIR}/usr/lib/x86_64-linux-gnu/qt5/qml/MatsyaUI/libMatsyaUI.so"
          RPATH "")
   endif()
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/usr/lib/x86_64-linux-gnu/qt5/qml/FishUI/libFishUI.so")
+   "/usr/lib/x86_64-linux-gnu/qt5/qml/MatsyaUI/libMatsyaUI.so")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/lib/x86_64-linux-gnu/qt5/qml/FishUI" TYPE SHARED_LIBRARY FILES "/home/tokyo/clone/cuteclone/fishui/build/src/libFishUI.so")
-  if(EXISTS "$ENV{DESTDIR}/usr/lib/x86_64-linux-gnu/qt5/qml/FishUI/libFishUI.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/usr/lib/x86_64-linux-gnu/qt5/qml/FishUI/libFishUI.so")
+file(INSTALL DESTINATION "/usr/lib/x86_64-linux-gnu/qt5/qml/MatsyaUI" TYPE SHARED_LIBRARY FILES "/home/tokyo/clone/satya/matsyaui/build/src/libMatsyaUI.so")
+  if(EXISTS "$ENV{DESTDIR}/usr/lib/x86_64-linux-gnu/qt5/qml/MatsyaUI/libMatsyaUI.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/usr/lib/x86_64-linux-gnu/qt5/qml/MatsyaUI/libMatsyaUI.so")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/usr/lib/x86_64-linux-gnu/qt5/qml/FishUI/libFishUI.so")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/usr/lib/x86_64-linux-gnu/qt5/qml/MatsyaUI/libMatsyaUI.so")
     endif()
   endif()
 endif()
@@ -90,25 +90,25 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/usr/lib/x86_64-linux-gnu/qt5/qml/FishUI/")
+   "/usr/lib/x86_64-linux-gnu/qt5/qml/MatsyaUI/")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/lib/x86_64-linux-gnu/qt5/qml/FishUI" TYPE DIRECTORY FILES "/home/tokyo/clone/cuteclone/fishui/src/controls/")
+file(INSTALL DESTINATION "/usr/lib/x86_64-linux-gnu/qt5/qml/MatsyaUI" TYPE DIRECTORY FILES "/home/tokyo/clone/satya/matsyaui/src/controls/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/fish-style")
+   "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/matsya-style")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2" TYPE DIRECTORY FILES "/home/tokyo/clone/cuteclone/fishui/src/fish-style")
+file(INSTALL DESTINATION "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2" TYPE DIRECTORY FILES "/home/tokyo/clone/satya/matsyaui/src/matsya-style")
 endif()
 

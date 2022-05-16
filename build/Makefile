@@ -67,10 +67,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tokyo/clone/cuteclone/fishui
+CMAKE_SOURCE_DIR = /home/tokyo/clone/satya/matsyaui
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tokyo/clone/cuteclone/fishui/build
+CMAKE_BINARY_DIR = /home/tokyo/clone/satya/matsyaui/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -145,9 +145,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/cuteclone/fishui/build/CMakeFiles /home/tokyo/clone/cuteclone/fishui/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/satya/matsyaui/build/CMakeFiles /home/tokyo/clone/satya/matsyaui/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/cuteclone/fishui/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/satya/matsyaui/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -189,30 +189,30 @@ KF5WindowSystem_QCH/fast:
 .PHONY : KF5WindowSystem_QCH/fast
 
 #=============================================================================
-# Target rules for targets named FishUI
+# Target rules for targets named MatsyaUI
 
 # Build rule for target.
-FishUI: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FishUI
-.PHONY : FishUI
+MatsyaUI: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MatsyaUI
+.PHONY : MatsyaUI
 
 # fast build rule for target.
-FishUI/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/FishUI.dir/build.make src/CMakeFiles/FishUI.dir/build
-.PHONY : FishUI/fast
+MatsyaUI/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/build
+.PHONY : MatsyaUI/fast
 
 #=============================================================================
-# Target rules for targets named FishUI_autogen
+# Target rules for targets named MatsyaUI_autogen
 
 # Build rule for target.
-FishUI_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FishUI_autogen
-.PHONY : FishUI_autogen
+MatsyaUI_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MatsyaUI_autogen
+.PHONY : MatsyaUI_autogen
 
 # fast build rule for target.
-FishUI_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/FishUI_autogen.dir/build.make src/CMakeFiles/FishUI_autogen.dir/build
-.PHONY : FishUI_autogen/fast
+MatsyaUI_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI_autogen.dir/build.make src/CMakeFiles/MatsyaUI_autogen.dir/build
+.PHONY : MatsyaUI_autogen/fast
 
 # Help Target
 help:
@@ -226,9 +226,9 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... FishUI_autogen"
 	@echo "... KF5WindowSystem_QCH"
-	@echo "... FishUI"
+	@echo "... MatsyaUI_autogen"
+	@echo "... MatsyaUI"
 .PHONY : help
 
 

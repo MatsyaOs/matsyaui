@@ -1,4 +1,4 @@
 # Hashes of file build rules.
-7dc01a7c92ac87058c023993a284ff24 src/CMakeFiles/FishUI_autogen
-52743baa6e2f261a8e5a06634c0633e1 src/FishUI_autogen/2ZBFV47KUF/qrc_style.cpp
-db5bfde5fb7ec278bef73a1d7fff0abe src/FishUI_autogen/EWIEGA46WW/qrc_fishui.cpp
+57146a6b50a66f9a528b22611c26af3e src/CMakeFiles/MatsyaUI_autogen
+051aab0c478889de7009ec307f683f46 src/MatsyaUI_autogen/EWIEGA46WW/qrc_matsyaui.cpp
+d7edb6ab952de9ddad6e718f3b856592 src/MatsyaUI_autogen/SYRDMENBTL/qrc_style.cpp

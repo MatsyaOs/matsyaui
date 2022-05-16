@@ -65,6 +65,15 @@ void MatsyaUI::registerTypes(const char *uri)
     qmlRegisterSingletonType(componentUrl(QStringLiteral("Theme.qml")), uri, 1, 0, "Theme");
     qmlRegisterSingletonType(componentUrl(QStringLiteral("Units.qml")), uri, 1, 0, "Units");
 
+    qmlRegisterType(componentUrl(QStringLiteral("MatsyaIconButton.qml")), uri, 1, 0, "Matsyabutton");
+    qmlRegisterType(componentUrl(QStringLiteral("Matsyaslider.qml")), uri, 1, 0, "Matsyaslider");
+    qmlRegisterType(componentUrl(QStringLiteral("Hideable.qml")), uri, 1, 0, "Hideable");
+    qmlRegisterType(componentUrl(QStringLiteral("VerticalDivider.qml")), uri, 1, 0, "VD");
+    qmlRegisterType(componentUrl(QStringLiteral("HowerColor.qml")), uri, 1, 0, "HWC");
+    qmlRegisterType(componentUrl(QStringLiteral("mprisfullview.qml")), uri, 1, 0, "MFV");
+
+    
+    
     qmlRegisterType(componentUrl(QStringLiteral("AboutDialog.qml")), uri, 1, 0, "AboutDialog");
     qmlRegisterType(componentUrl(QStringLiteral("ActionTextField.qml")), uri, 1, 0, "ActionTextField");
     qmlRegisterType(componentUrl(QStringLiteral("BusyIndicator.qml")), uri, 1, 0, "BusyIndicator");

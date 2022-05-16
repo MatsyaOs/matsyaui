@@ -62,10 +62,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tokyo/clone/cuteclone/fishui
+CMAKE_SOURCE_DIR = /home/tokyo/clone/satya/matsyaui
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tokyo/clone/cuteclone/fishui/build
+CMAKE_BINARY_DIR = /home/tokyo/clone/satya/matsyaui/build
 
 # Utility rule file for KF5WindowSystem_QCH.
 
@@ -86,6 +86,6 @@ CMakeFiles/KF5WindowSystem_QCH.dir/clean:
 .PHONY : CMakeFiles/KF5WindowSystem_QCH.dir/clean
 
 CMakeFiles/KF5WindowSystem_QCH.dir/depend:
-	cd /home/tokyo/clone/cuteclone/fishui/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tokyo/clone/cuteclone/fishui /home/tokyo/clone/cuteclone/fishui /home/tokyo/clone/cuteclone/fishui/build /home/tokyo/clone/cuteclone/fishui/build /home/tokyo/clone/cuteclone/fishui/build/CMakeFiles/KF5WindowSystem_QCH.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tokyo/clone/satya/matsyaui/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tokyo/clone/satya/matsyaui /home/tokyo/clone/satya/matsyaui /home/tokyo/clone/satya/matsyaui/build /home/tokyo/clone/satya/matsyaui/build /home/tokyo/clone/satya/matsyaui/build/CMakeFiles/KF5WindowSystem_QCH.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/KF5WindowSystem_QCH.dir/depend
 

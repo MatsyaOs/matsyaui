@@ -28,3 +28,12 @@ TabCloseButton 1.0 TabCloseButton.qml
 TabView 1.0 TabView.qml
 
 Toast 1.0 Toast.qml
+Matsyaslider 1.0 Matsyaslider.qml
+MatsyaIconButton 1.0 MatsyaIconButton.qml
+MatsyaWindow 1.0 MatsyaWindow.qml
+Matsyaicon 1.0 Matsyaicon.qml
+Hideable 1.0 Hideable.qml
+VerticalDivider 1.0 VerticalDivider.qml
+HowerColor 1.0 HowerColor.qml
+mprisfullview 1.0 mprisfullview.qml
+

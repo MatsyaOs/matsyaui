@@ -289,13 +289,25 @@ Window {
                 }
 
                 RowLayout {
-                    spacing: MatsyaUI.Units.smallSpacing
+                    spacing:3// MatsyaUI.Units.smallSpacing
                     Layout.alignment: Qt.AlignTop
 
                     // Window buttons
-                    RoundImageButton {
-                        size: _header.buttonSize
-                        source: "qrc:/matsyaui/kit/images/" + (MatsyaUI.Theme.darkMode ? "dark/" : "light/") + "minimize.svg"
+ // Window buttons
+                   Matsyaicon {
+                        size:22 //_header.buttonSize
+                        source: "qrc:/matsyaui/kit/images/" + (MatsyaUI.Theme.darkMode ? "dark/" : "light/") + "clos"
+                        onClicked: control.close()
+                        // visible: !control.isFullScreen
+                        Layout.alignment: Qt.AlignTop
+                        Layout.topMargin: _header.spacing
+                        image.smooth: false
+                        image.antialiasing: true
+                        iconMargins: 2
+                    }
+                    Matsyaicon {
+                        size: 22//_header.buttonSize
+                        source: "qrc:/matsyaui/kit/images/" + (MatsyaUI.Theme.darkMode ? "dark/" : "light/") + "minimiz"
                         onClicked: windowHelper.minimizeWindow(control)
                         visible: control.minimizeButtonVisible
                         Layout.alignment: Qt.AlignTop
@@ -305,11 +317,11 @@ Window {
                         iconMargins: 2
                     }
 
-                    RoundImageButton {
-                        size: _header.buttonSize
+                  Matsyaicon {
+                        size: 22//_header.buttonSize
                         source: "qrc:/matsyaui/kit/images/" +
                             (MatsyaUI.Theme.darkMode ? "dark/" : "light/") +
-                            (control.visibility === Window.Maximized ? "restore.svg" : "maximize.svg")
+                            (control.visibility === Window.Maximized ? "restor" : "maximiz")
                         onClicked: control.toggleMaximized()
                         visible: !control.isFullScreen &&  control.minimumWidth !== control.maximumWidth && control.maximumHeight !== control.minimumHeight
                         Layout.alignment: Qt.AlignTop
@@ -319,19 +331,21 @@ Window {
                         iconMargins: 2
                     }
 
-                    RoundImageButton {
-                        size: _header.buttonSize
-                        source: "qrc:/matsyaui/kit/images/" + (MatsyaUI.Theme.darkMode ? "dark/" : "light/") + "close.svg"
-                        onClicked: control.close()
-                        // visible: !control.isFullScreen
-                        Layout.alignment: Qt.AlignTop
-                        Layout.topMargin: _header.spacing
-                        image.smooth: false
-                        image.antialiasing: true
-                        iconMargins: 2
-                    }
+
+                }
+                Item {
+                    id: _headerContent
+                    Layout.fillHeight: true
+                    Layout.fillWidth: true
                 }
 
+
+                Item {
+                    width: _header.spacing
+                }
+                Item {
+                    width: _header.spacing
+                }
                 Item {
                     width: _header.spacing
                 }

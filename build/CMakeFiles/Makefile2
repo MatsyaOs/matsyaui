@@ -63,10 +63,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tokyo/clone/cuteclone/fishui
+CMAKE_SOURCE_DIR = /home/tokyo/clone/satya/matsyaui
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tokyo/clone/cuteclone/fishui/build
+CMAKE_BINARY_DIR = /home/tokyo/clone/satya/matsyaui/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -91,7 +91,7 @@ clean: src/clean
 # Directory level rules for directory src
 
 # Recursive "all" directory target.
-src/all: src/CMakeFiles/FishUI.dir/all
+src/all: src/CMakeFiles/MatsyaUI.dir/all
 
 .PHONY : src/all
 
@@ -101,8 +101,8 @@ src/preinstall:
 .PHONY : src/preinstall
 
 # Recursive "clean" directory target.
-src/clean: src/CMakeFiles/FishUI.dir/clean
-src/clean: src/CMakeFiles/FishUI_autogen.dir/clean
+src/clean: src/CMakeFiles/MatsyaUI.dir/clean
+src/clean: src/CMakeFiles/MatsyaUI_autogen.dir/clean
 
 .PHONY : src/clean
 
@@ -113,14 +113,14 @@ src/clean: src/CMakeFiles/FishUI_autogen.dir/clean
 CMakeFiles/KF5WindowSystem_QCH.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/KF5WindowSystem_QCH.dir/build.make CMakeFiles/KF5WindowSystem_QCH.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/KF5WindowSystem_QCH.dir/build.make CMakeFiles/KF5WindowSystem_QCH.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/clone/cuteclone/fishui/build/CMakeFiles --progress-num= "Built target KF5WindowSystem_QCH"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/clone/satya/matsyaui/build/CMakeFiles --progress-num= "Built target KF5WindowSystem_QCH"
 .PHONY : CMakeFiles/KF5WindowSystem_QCH.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/KF5WindowSystem_QCH.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/cuteclone/fishui/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/satya/matsyaui/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/KF5WindowSystem_QCH.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/cuteclone/fishui/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/satya/matsyaui/build/CMakeFiles 0
 .PHONY : CMakeFiles/KF5WindowSystem_QCH.dir/rule
 
 # Convenience name for target.
@@ -134,58 +134,58 @@ CMakeFiles/KF5WindowSystem_QCH.dir/clean:
 .PHONY : CMakeFiles/KF5WindowSystem_QCH.dir/clean
 
 #=============================================================================
-# Target rules for target src/CMakeFiles/FishUI.dir
+# Target rules for target src/CMakeFiles/MatsyaUI.dir
 
 # All Build rule for target.
-src/CMakeFiles/FishUI.dir/all: src/CMakeFiles/FishUI_autogen.dir/all
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/FishUI.dir/build.make src/CMakeFiles/FishUI.dir/depend
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/FishUI.dir/build.make src/CMakeFiles/FishUI.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/clone/cuteclone/fishui/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19 "Built target FishUI"
-.PHONY : src/CMakeFiles/FishUI.dir/all
+src/CMakeFiles/MatsyaUI.dir/all: src/CMakeFiles/MatsyaUI_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/clone/satya/matsyaui/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19 "Built target MatsyaUI"
+.PHONY : src/CMakeFiles/MatsyaUI.dir/all
 
 # Build rule for subdir invocation for target.
-src/CMakeFiles/FishUI.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/cuteclone/fishui/build/CMakeFiles 20
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/FishUI.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/cuteclone/fishui/build/CMakeFiles 0
-.PHONY : src/CMakeFiles/FishUI.dir/rule
+src/CMakeFiles/MatsyaUI.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/satya/matsyaui/build/CMakeFiles 20
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/MatsyaUI.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/satya/matsyaui/build/CMakeFiles 0
+.PHONY : src/CMakeFiles/MatsyaUI.dir/rule
 
 # Convenience name for target.
-FishUI: src/CMakeFiles/FishUI.dir/rule
+MatsyaUI: src/CMakeFiles/MatsyaUI.dir/rule
 
-.PHONY : FishUI
+.PHONY : MatsyaUI
 
 # clean rule for target.
-src/CMakeFiles/FishUI.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/FishUI.dir/build.make src/CMakeFiles/FishUI.dir/clean
-.PHONY : src/CMakeFiles/FishUI.dir/clean
+src/CMakeFiles/MatsyaUI.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/clean
+.PHONY : src/CMakeFiles/MatsyaUI.dir/clean
 
 #=============================================================================
-# Target rules for target src/CMakeFiles/FishUI_autogen.dir
+# Target rules for target src/CMakeFiles/MatsyaUI_autogen.dir
 
 # All Build rule for target.
-src/CMakeFiles/FishUI_autogen.dir/all:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/FishUI_autogen.dir/build.make src/CMakeFiles/FishUI_autogen.dir/depend
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/FishUI_autogen.dir/build.make src/CMakeFiles/FishUI_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/clone/cuteclone/fishui/build/CMakeFiles --progress-num=20 "Built target FishUI_autogen"
-.PHONY : src/CMakeFiles/FishUI_autogen.dir/all
+src/CMakeFiles/MatsyaUI_autogen.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI_autogen.dir/build.make src/CMakeFiles/MatsyaUI_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI_autogen.dir/build.make src/CMakeFiles/MatsyaUI_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/clone/satya/matsyaui/build/CMakeFiles --progress-num=20 "Built target MatsyaUI_autogen"
+.PHONY : src/CMakeFiles/MatsyaUI_autogen.dir/all
 
 # Build rule for subdir invocation for target.
-src/CMakeFiles/FishUI_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/cuteclone/fishui/build/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/FishUI_autogen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/cuteclone/fishui/build/CMakeFiles 0
-.PHONY : src/CMakeFiles/FishUI_autogen.dir/rule
+src/CMakeFiles/MatsyaUI_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/satya/matsyaui/build/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/MatsyaUI_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/satya/matsyaui/build/CMakeFiles 0
+.PHONY : src/CMakeFiles/MatsyaUI_autogen.dir/rule
 
 # Convenience name for target.
-FishUI_autogen: src/CMakeFiles/FishUI_autogen.dir/rule
+MatsyaUI_autogen: src/CMakeFiles/MatsyaUI_autogen.dir/rule
 
-.PHONY : FishUI_autogen
+.PHONY : MatsyaUI_autogen
 
 # clean rule for target.
-src/CMakeFiles/FishUI_autogen.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/FishUI_autogen.dir/build.make src/CMakeFiles/FishUI_autogen.dir/clean
-.PHONY : src/CMakeFiles/FishUI_autogen.dir/clean
+src/CMakeFiles/MatsyaUI_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI_autogen.dir/build.make src/CMakeFiles/MatsyaUI_autogen.dir/clean
+.PHONY : src/CMakeFiles/MatsyaUI_autogen.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
