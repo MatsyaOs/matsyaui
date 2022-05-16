@@ -334,7 +334,7 @@ Window {
 
                 }
                 Item {
-                    id: _headerContent
+                    id: _headerContent1
                     Layout.fillHeight: true
                     Layout.fillWidth: true
                 }

@@ -62,10 +62,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tokyo/clone/satya/matsyaui
+CMAKE_SOURCE_DIR = /home/tokyo/Documents/GitHub/matsyaui
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tokyo/clone/satya/matsyaui/build
+CMAKE_BINARY_DIR = /home/tokyo/Documents/GitHub/matsyaui/build
 
 # Utility rule file for MatsyaUI_autogen.
 
@@ -73,8 +73,8 @@ CMAKE_BINARY_DIR = /home/tokyo/clone/satya/matsyaui/build
 include src/CMakeFiles/MatsyaUI_autogen.dir/progress.make
 
 src/CMakeFiles/MatsyaUI_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/satya/matsyaui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target MatsyaUI"
-	cd /home/tokyo/clone/satya/matsyaui/build/src && /usr/bin/cmake -E cmake_autogen /home/tokyo/clone/satya/matsyaui/build/src/CMakeFiles/MatsyaUI_autogen.dir/AutogenInfo.json ""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/matsyaui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target MatsyaUI"
+	cd /home/tokyo/Documents/GitHub/matsyaui/build/src && /usr/bin/cmake -E cmake_autogen /home/tokyo/Documents/GitHub/matsyaui/build/src/CMakeFiles/MatsyaUI_autogen.dir/AutogenInfo.json ""
 
 MatsyaUI_autogen: src/CMakeFiles/MatsyaUI_autogen
 MatsyaUI_autogen: src/CMakeFiles/MatsyaUI_autogen.dir/build.make
@@ -87,10 +87,10 @@ src/CMakeFiles/MatsyaUI_autogen.dir/build: MatsyaUI_autogen
 .PHONY : src/CMakeFiles/MatsyaUI_autogen.dir/build
 
 src/CMakeFiles/MatsyaUI_autogen.dir/clean:
-	cd /home/tokyo/clone/satya/matsyaui/build/src && $(CMAKE_COMMAND) -P CMakeFiles/MatsyaUI_autogen.dir/cmake_clean.cmake
+	cd /home/tokyo/Documents/GitHub/matsyaui/build/src && $(CMAKE_COMMAND) -P CMakeFiles/MatsyaUI_autogen.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/MatsyaUI_autogen.dir/clean
 
 src/CMakeFiles/MatsyaUI_autogen.dir/depend:
-	cd /home/tokyo/clone/satya/matsyaui/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tokyo/clone/satya/matsyaui /home/tokyo/clone/satya/matsyaui/src /home/tokyo/clone/satya/matsyaui/build /home/tokyo/clone/satya/matsyaui/build/src /home/tokyo/clone/satya/matsyaui/build/src/CMakeFiles/MatsyaUI_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tokyo/Documents/GitHub/matsyaui /home/tokyo/Documents/GitHub/matsyaui/src /home/tokyo/Documents/GitHub/matsyaui/build /home/tokyo/Documents/GitHub/matsyaui/build/src /home/tokyo/Documents/GitHub/matsyaui/build/src/CMakeFiles/MatsyaUI_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/MatsyaUI_autogen.dir/depend
 

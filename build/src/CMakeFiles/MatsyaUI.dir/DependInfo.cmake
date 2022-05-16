@@ -4,22 +4,22 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/tokyo/clone/satya/matsyaui/build/src/MatsyaUI_autogen/EWIEGA46WW/qrc_matsyaui.cpp" "/home/tokyo/clone/satya/matsyaui/build/src/CMakeFiles/MatsyaUI.dir/MatsyaUI_autogen/EWIEGA46WW/qrc_matsyaui.cpp.o"
-  "/home/tokyo/clone/satya/matsyaui/build/src/MatsyaUI_autogen/SYRDMENBTL/qrc_style.cpp" "/home/tokyo/clone/satya/matsyaui/build/src/CMakeFiles/MatsyaUI.dir/MatsyaUI_autogen/SYRDMENBTL/qrc_style.cpp.o"
-  "/home/tokyo/clone/satya/matsyaui/build/src/MatsyaUI_autogen/mocs_compilation.cpp" "/home/tokyo/clone/satya/matsyaui/build/src/CMakeFiles/MatsyaUI.dir/MatsyaUI_autogen/mocs_compilation.cpp.o"
-  "/home/tokyo/clone/satya/matsyaui/src/desktop/menupopupwindow.cpp" "/home/tokyo/clone/satya/matsyaui/build/src/CMakeFiles/MatsyaUI.dir/desktop/menupopupwindow.cpp.o"
-  "/home/tokyo/clone/satya/matsyaui/src/iconthemeprovider.cpp" "/home/tokyo/clone/satya/matsyaui/build/src/CMakeFiles/MatsyaUI.dir/iconthemeprovider.cpp.o"
-  "/home/tokyo/clone/satya/matsyaui/src/managedtexturenode.cpp" "/home/tokyo/clone/satya/matsyaui/build/src/CMakeFiles/MatsyaUI.dir/managedtexturenode.cpp.o"
-  "/home/tokyo/clone/satya/matsyaui/src/matsyaui.cpp" "/home/tokyo/clone/satya/matsyaui/build/src/CMakeFiles/MatsyaUI.dir/matsyaui.cpp.o"
-  "/home/tokyo/clone/satya/matsyaui/src/newiconitem.cpp" "/home/tokyo/clone/satya/matsyaui/build/src/CMakeFiles/MatsyaUI.dir/newiconitem.cpp.o"
-  "/home/tokyo/clone/satya/matsyaui/src/platforms/linux/blurhelper/windowblur.cpp" "/home/tokyo/clone/satya/matsyaui/build/src/CMakeFiles/MatsyaUI.dir/platforms/linux/blurhelper/windowblur.cpp.o"
-  "/home/tokyo/clone/satya/matsyaui/src/platforms/linux/shadowhelper/boxshadowrenderer.cpp" "/home/tokyo/clone/satya/matsyaui/build/src/CMakeFiles/MatsyaUI.dir/platforms/linux/shadowhelper/boxshadowrenderer.cpp.o"
-  "/home/tokyo/clone/satya/matsyaui/src/platforms/linux/shadowhelper/tileset.cpp" "/home/tokyo/clone/satya/matsyaui/build/src/CMakeFiles/MatsyaUI.dir/platforms/linux/shadowhelper/tileset.cpp.o"
-  "/home/tokyo/clone/satya/matsyaui/src/platforms/linux/shadowhelper/windowshadow.cpp" "/home/tokyo/clone/satya/matsyaui/build/src/CMakeFiles/MatsyaUI.dir/platforms/linux/shadowhelper/windowshadow.cpp.o"
-  "/home/tokyo/clone/satya/matsyaui/src/platforms/linux/windowhelper.cpp" "/home/tokyo/clone/satya/matsyaui/build/src/CMakeFiles/MatsyaUI.dir/platforms/linux/windowhelper.cpp.o"
-  "/home/tokyo/clone/satya/matsyaui/src/qqmlsortfilterproxymodel.cpp" "/home/tokyo/clone/satya/matsyaui/build/src/CMakeFiles/MatsyaUI.dir/qqmlsortfilterproxymodel.cpp.o"
-  "/home/tokyo/clone/satya/matsyaui/src/thememanager.cpp" "/home/tokyo/clone/satya/matsyaui/build/src/CMakeFiles/MatsyaUI.dir/thememanager.cpp.o"
-  "/home/tokyo/clone/satya/matsyaui/src/wheelhandler.cpp" "/home/tokyo/clone/satya/matsyaui/build/src/CMakeFiles/MatsyaUI.dir/wheelhandler.cpp.o"
+  "/home/tokyo/Documents/GitHub/matsyaui/build/src/MatsyaUI_autogen/EWIEGA46WW/qrc_matsyaui.cpp" "/home/tokyo/Documents/GitHub/matsyaui/build/src/CMakeFiles/MatsyaUI.dir/MatsyaUI_autogen/EWIEGA46WW/qrc_matsyaui.cpp.o"
+  "/home/tokyo/Documents/GitHub/matsyaui/build/src/MatsyaUI_autogen/SYRDMENBTL/qrc_style.cpp" "/home/tokyo/Documents/GitHub/matsyaui/build/src/CMakeFiles/MatsyaUI.dir/MatsyaUI_autogen/SYRDMENBTL/qrc_style.cpp.o"
+  "/home/tokyo/Documents/GitHub/matsyaui/build/src/MatsyaUI_autogen/mocs_compilation.cpp" "/home/tokyo/Documents/GitHub/matsyaui/build/src/CMakeFiles/MatsyaUI.dir/MatsyaUI_autogen/mocs_compilation.cpp.o"
+  "/home/tokyo/Documents/GitHub/matsyaui/src/desktop/menupopupwindow.cpp" "/home/tokyo/Documents/GitHub/matsyaui/build/src/CMakeFiles/MatsyaUI.dir/desktop/menupopupwindow.cpp.o"
+  "/home/tokyo/Documents/GitHub/matsyaui/src/iconthemeprovider.cpp" "/home/tokyo/Documents/GitHub/matsyaui/build/src/CMakeFiles/MatsyaUI.dir/iconthemeprovider.cpp.o"
+  "/home/tokyo/Documents/GitHub/matsyaui/src/managedtexturenode.cpp" "/home/tokyo/Documents/GitHub/matsyaui/build/src/CMakeFiles/MatsyaUI.dir/managedtexturenode.cpp.o"
+  "/home/tokyo/Documents/GitHub/matsyaui/src/matsyaui.cpp" "/home/tokyo/Documents/GitHub/matsyaui/build/src/CMakeFiles/MatsyaUI.dir/matsyaui.cpp.o"
+  "/home/tokyo/Documents/GitHub/matsyaui/src/newiconitem.cpp" "/home/tokyo/Documents/GitHub/matsyaui/build/src/CMakeFiles/MatsyaUI.dir/newiconitem.cpp.o"
+  "/home/tokyo/Documents/GitHub/matsyaui/src/platforms/linux/blurhelper/windowblur.cpp" "/home/tokyo/Documents/GitHub/matsyaui/build/src/CMakeFiles/MatsyaUI.dir/platforms/linux/blurhelper/windowblur.cpp.o"
+  "/home/tokyo/Documents/GitHub/matsyaui/src/platforms/linux/shadowhelper/boxshadowrenderer.cpp" "/home/tokyo/Documents/GitHub/matsyaui/build/src/CMakeFiles/MatsyaUI.dir/platforms/linux/shadowhelper/boxshadowrenderer.cpp.o"
+  "/home/tokyo/Documents/GitHub/matsyaui/src/platforms/linux/shadowhelper/tileset.cpp" "/home/tokyo/Documents/GitHub/matsyaui/build/src/CMakeFiles/MatsyaUI.dir/platforms/linux/shadowhelper/tileset.cpp.o"
+  "/home/tokyo/Documents/GitHub/matsyaui/src/platforms/linux/shadowhelper/windowshadow.cpp" "/home/tokyo/Documents/GitHub/matsyaui/build/src/CMakeFiles/MatsyaUI.dir/platforms/linux/shadowhelper/windowshadow.cpp.o"
+  "/home/tokyo/Documents/GitHub/matsyaui/src/platforms/linux/windowhelper.cpp" "/home/tokyo/Documents/GitHub/matsyaui/build/src/CMakeFiles/MatsyaUI.dir/platforms/linux/windowhelper.cpp.o"
+  "/home/tokyo/Documents/GitHub/matsyaui/src/qqmlsortfilterproxymodel.cpp" "/home/tokyo/Documents/GitHub/matsyaui/build/src/CMakeFiles/MatsyaUI.dir/qqmlsortfilterproxymodel.cpp.o"
+  "/home/tokyo/Documents/GitHub/matsyaui/src/thememanager.cpp" "/home/tokyo/Documents/GitHub/matsyaui/build/src/CMakeFiles/MatsyaUI.dir/thememanager.cpp.o"
+  "/home/tokyo/Documents/GitHub/matsyaui/src/wheelhandler.cpp" "/home/tokyo/Documents/GitHub/matsyaui/build/src/CMakeFiles/MatsyaUI.dir/wheelhandler.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

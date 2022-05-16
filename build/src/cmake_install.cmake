@@ -1,4 +1,4 @@
-# Install script for directory: /home/tokyo/clone/satya/matsyaui/src
+# Install script for directory: /home/tokyo/Documents/GitHub/matsyaui/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -49,7 +49,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/libMatsyaUI.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu" TYPE SHARED_LIBRARY FILES "/home/tokyo/clone/satya/matsyaui/build/src/libMatsyaUI.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu" TYPE SHARED_LIBRARY FILES "/home/tokyo/Documents/GitHub/matsyaui/build/src/libMatsyaUI.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/libMatsyaUI.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/libMatsyaUI.so")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -76,7 +76,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/lib/x86_64-linux-gnu/qt5/qml/MatsyaUI" TYPE SHARED_LIBRARY FILES "/home/tokyo/clone/satya/matsyaui/build/src/libMatsyaUI.so")
+file(INSTALL DESTINATION "/usr/lib/x86_64-linux-gnu/qt5/qml/MatsyaUI" TYPE SHARED_LIBRARY FILES "/home/tokyo/Documents/GitHub/matsyaui/build/src/libMatsyaUI.so")
   if(EXISTS "$ENV{DESTDIR}/usr/lib/x86_64-linux-gnu/qt5/qml/MatsyaUI/libMatsyaUI.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/usr/lib/x86_64-linux-gnu/qt5/qml/MatsyaUI/libMatsyaUI.so")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -97,7 +97,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/lib/x86_64-linux-gnu/qt5/qml/MatsyaUI" TYPE DIRECTORY FILES "/home/tokyo/clone/satya/matsyaui/src/controls/")
+file(INSTALL DESTINATION "/usr/lib/x86_64-linux-gnu/qt5/qml/MatsyaUI" TYPE DIRECTORY FILES "/home/tokyo/Documents/GitHub/matsyaui/src/controls/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -109,6 +109,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2" TYPE DIRECTORY FILES "/home/tokyo/clone/satya/matsyaui/src/matsya-style")
+file(INSTALL DESTINATION "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2" TYPE DIRECTORY FILES "/home/tokyo/Documents/GitHub/matsyaui/src/matsya-style")
 endif()
 

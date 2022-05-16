@@ -1,4 +1,4 @@
-# Install script for directory: /home/tokyo/clone/satya/matsyaui
+# Install script for directory: /home/tokyo/Documents/GitHub/matsyaui
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,8 +44,8 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xDevelx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/cmake/MatsyaUI" TYPE FILE FILES
-    "/home/tokyo/clone/satya/matsyaui/build/MatsyaUIConfig.cmake"
-    "/home/tokyo/clone/satya/matsyaui/build/MatsyaUIConfigVersion.cmake"
+    "/home/tokyo/Documents/GitHub/matsyaui/build/MatsyaUIConfig.cmake"
+    "/home/tokyo/Documents/GitHub/matsyaui/build/MatsyaUIConfigVersion.cmake"
     )
 endif()
 
@@ -53,7 +53,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/cmake/MatsyaUI/MatsyaUITargets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/cmake/MatsyaUI/MatsyaUITargets.cmake"
-         "/home/tokyo/clone/satya/matsyaui/build/CMakeFiles/Export/lib/x86_64-linux-gnu/cmake/MatsyaUI/MatsyaUITargets.cmake")
+         "/home/tokyo/Documents/GitHub/matsyaui/build/CMakeFiles/Export/lib/x86_64-linux-gnu/cmake/MatsyaUI/MatsyaUITargets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/cmake/MatsyaUI/MatsyaUITargets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -62,15 +62,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/cmake/MatsyaUI" TYPE FILE FILES "/home/tokyo/clone/satya/matsyaui/build/CMakeFiles/Export/lib/x86_64-linux-gnu/cmake/MatsyaUI/MatsyaUITargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/cmake/MatsyaUI" TYPE FILE FILES "/home/tokyo/Documents/GitHub/matsyaui/build/CMakeFiles/Export/lib/x86_64-linux-gnu/cmake/MatsyaUI/MatsyaUITargets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/cmake/MatsyaUI" TYPE FILE FILES "/home/tokyo/clone/satya/matsyaui/build/CMakeFiles/Export/lib/x86_64-linux-gnu/cmake/MatsyaUI/MatsyaUITargets-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/cmake/MatsyaUI" TYPE FILE FILES "/home/tokyo/Documents/GitHub/matsyaui/build/CMakeFiles/Export/lib/x86_64-linux-gnu/cmake/MatsyaUI/MatsyaUITargets-noconfig.cmake")
   endif()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/tokyo/clone/satya/matsyaui/build/src/cmake_install.cmake")
+  include("/home/tokyo/Documents/GitHub/matsyaui/build/src/cmake_install.cmake")
 
 endif()
 
@@ -82,5 +82,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/tokyo/clone/satya/matsyaui/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/tokyo/Documents/GitHub/matsyaui/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

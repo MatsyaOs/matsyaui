@@ -1,5 +1,5 @@
-/home/tokyo/clone/satya/matsyaui/build/src/MatsyaUI_autogen/BOXWVT77SO/moc_windowhelper.cpp: /home/tokyo/clone/satya/matsyaui/src/platforms/linux/windowhelper.h \
-  /home/tokyo/clone/satya/matsyaui/build/src/MatsyaUI_autogen/moc_predefs.h \
+/home/tokyo/Documents/GitHub/matsyaui/build/src/MatsyaUI_autogen/BOXWVT77SO/moc_windowhelper.cpp: /home/tokyo/Documents/GitHub/matsyaui/src/platforms/linux/windowhelper.h \
+  /home/tokyo/Documents/GitHub/matsyaui/build/src/MatsyaUI_autogen/moc_predefs.h \
   /usr/include/alloca.h \
   /usr/include/assert.h \
   /usr/include/c++/10/algorithm \

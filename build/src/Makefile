@@ -67,10 +67,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tokyo/clone/satya/matsyaui
+CMAKE_SOURCE_DIR = /home/tokyo/Documents/GitHub/matsyaui
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tokyo/clone/satya/matsyaui/build
+CMAKE_BINARY_DIR = /home/tokyo/Documents/GitHub/matsyaui/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -145,14 +145,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/tokyo/clone/satya/matsyaui/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/satya/matsyaui/build/CMakeFiles /home/tokyo/clone/satya/matsyaui/build/src//CMakeFiles/progress.marks
-	cd /home/tokyo/clone/satya/matsyaui/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/satya/matsyaui/build/CMakeFiles 0
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/matsyaui/build/CMakeFiles /home/tokyo/Documents/GitHub/matsyaui/build/src//CMakeFiles/progress.marks
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/matsyaui/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/tokyo/clone/satya/matsyaui/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -162,22 +162,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/tokyo/clone/satya/matsyaui/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/tokyo/clone/satya/matsyaui/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/tokyo/clone/satya/matsyaui/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/MatsyaUI.dir/rule:
-	cd /home/tokyo/clone/satya/matsyaui/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/MatsyaUI.dir/rule
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/MatsyaUI.dir/rule
 .PHONY : src/CMakeFiles/MatsyaUI.dir/rule
 
 # Convenience name for target.
@@ -187,12 +187,12 @@ MatsyaUI: src/CMakeFiles/MatsyaUI.dir/rule
 
 # fast build rule for target.
 MatsyaUI/fast:
-	cd /home/tokyo/clone/satya/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/build
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/build
 .PHONY : MatsyaUI/fast
 
 # Convenience name for target.
 src/CMakeFiles/MatsyaUI_autogen.dir/rule:
-	cd /home/tokyo/clone/satya/matsyaui/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/MatsyaUI_autogen.dir/rule
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/MatsyaUI_autogen.dir/rule
 .PHONY : src/CMakeFiles/MatsyaUI_autogen.dir/rule
 
 # Convenience name for target.
@@ -202,7 +202,7 @@ MatsyaUI_autogen: src/CMakeFiles/MatsyaUI_autogen.dir/rule
 
 # fast build rule for target.
 MatsyaUI_autogen/fast:
-	cd /home/tokyo/clone/satya/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI_autogen.dir/build.make src/CMakeFiles/MatsyaUI_autogen.dir/build
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI_autogen.dir/build.make src/CMakeFiles/MatsyaUI_autogen.dir/build
 .PHONY : MatsyaUI_autogen/fast
 
 MatsyaUI_autogen/EWIEGA46WW/qrc_matsyaui.o: MatsyaUI_autogen/EWIEGA46WW/qrc_matsyaui.cpp.o
@@ -211,7 +211,7 @@ MatsyaUI_autogen/EWIEGA46WW/qrc_matsyaui.o: MatsyaUI_autogen/EWIEGA46WW/qrc_mats
 
 # target to build an object file
 MatsyaUI_autogen/EWIEGA46WW/qrc_matsyaui.cpp.o:
-	cd /home/tokyo/clone/satya/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/MatsyaUI_autogen/EWIEGA46WW/qrc_matsyaui.cpp.o
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/MatsyaUI_autogen/EWIEGA46WW/qrc_matsyaui.cpp.o
 .PHONY : MatsyaUI_autogen/EWIEGA46WW/qrc_matsyaui.cpp.o
 
 MatsyaUI_autogen/EWIEGA46WW/qrc_matsyaui.i: MatsyaUI_autogen/EWIEGA46WW/qrc_matsyaui.cpp.i
@@ -220,7 +220,7 @@ MatsyaUI_autogen/EWIEGA46WW/qrc_matsyaui.i: MatsyaUI_autogen/EWIEGA46WW/qrc_mats
 
 # target to preprocess a source file
 MatsyaUI_autogen/EWIEGA46WW/qrc_matsyaui.cpp.i:
-	cd /home/tokyo/clone/satya/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/MatsyaUI_autogen/EWIEGA46WW/qrc_matsyaui.cpp.i
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/MatsyaUI_autogen/EWIEGA46WW/qrc_matsyaui.cpp.i
 .PHONY : MatsyaUI_autogen/EWIEGA46WW/qrc_matsyaui.cpp.i
 
 MatsyaUI_autogen/EWIEGA46WW/qrc_matsyaui.s: MatsyaUI_autogen/EWIEGA46WW/qrc_matsyaui.cpp.s
@@ -229,7 +229,7 @@ MatsyaUI_autogen/EWIEGA46WW/qrc_matsyaui.s: MatsyaUI_autogen/EWIEGA46WW/qrc_mats
 
 # target to generate assembly for a file
 MatsyaUI_autogen/EWIEGA46WW/qrc_matsyaui.cpp.s:
-	cd /home/tokyo/clone/satya/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/MatsyaUI_autogen/EWIEGA46WW/qrc_matsyaui.cpp.s
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/MatsyaUI_autogen/EWIEGA46WW/qrc_matsyaui.cpp.s
 .PHONY : MatsyaUI_autogen/EWIEGA46WW/qrc_matsyaui.cpp.s
 
 MatsyaUI_autogen/SYRDMENBTL/qrc_style.o: MatsyaUI_autogen/SYRDMENBTL/qrc_style.cpp.o
@@ -238,7 +238,7 @@ MatsyaUI_autogen/SYRDMENBTL/qrc_style.o: MatsyaUI_autogen/SYRDMENBTL/qrc_style.c
 
 # target to build an object file
 MatsyaUI_autogen/SYRDMENBTL/qrc_style.cpp.o:
-	cd /home/tokyo/clone/satya/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/MatsyaUI_autogen/SYRDMENBTL/qrc_style.cpp.o
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/MatsyaUI_autogen/SYRDMENBTL/qrc_style.cpp.o
 .PHONY : MatsyaUI_autogen/SYRDMENBTL/qrc_style.cpp.o
 
 MatsyaUI_autogen/SYRDMENBTL/qrc_style.i: MatsyaUI_autogen/SYRDMENBTL/qrc_style.cpp.i
@@ -247,7 +247,7 @@ MatsyaUI_autogen/SYRDMENBTL/qrc_style.i: MatsyaUI_autogen/SYRDMENBTL/qrc_style.c
 
 # target to preprocess a source file
 MatsyaUI_autogen/SYRDMENBTL/qrc_style.cpp.i:
-	cd /home/tokyo/clone/satya/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/MatsyaUI_autogen/SYRDMENBTL/qrc_style.cpp.i
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/MatsyaUI_autogen/SYRDMENBTL/qrc_style.cpp.i
 .PHONY : MatsyaUI_autogen/SYRDMENBTL/qrc_style.cpp.i
 
 MatsyaUI_autogen/SYRDMENBTL/qrc_style.s: MatsyaUI_autogen/SYRDMENBTL/qrc_style.cpp.s
@@ -256,7 +256,7 @@ MatsyaUI_autogen/SYRDMENBTL/qrc_style.s: MatsyaUI_autogen/SYRDMENBTL/qrc_style.c
 
 # target to generate assembly for a file
 MatsyaUI_autogen/SYRDMENBTL/qrc_style.cpp.s:
-	cd /home/tokyo/clone/satya/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/MatsyaUI_autogen/SYRDMENBTL/qrc_style.cpp.s
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/MatsyaUI_autogen/SYRDMENBTL/qrc_style.cpp.s
 .PHONY : MatsyaUI_autogen/SYRDMENBTL/qrc_style.cpp.s
 
 MatsyaUI_autogen/mocs_compilation.o: MatsyaUI_autogen/mocs_compilation.cpp.o
@@ -265,7 +265,7 @@ MatsyaUI_autogen/mocs_compilation.o: MatsyaUI_autogen/mocs_compilation.cpp.o
 
 # target to build an object file
 MatsyaUI_autogen/mocs_compilation.cpp.o:
-	cd /home/tokyo/clone/satya/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/MatsyaUI_autogen/mocs_compilation.cpp.o
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/MatsyaUI_autogen/mocs_compilation.cpp.o
 .PHONY : MatsyaUI_autogen/mocs_compilation.cpp.o
 
 MatsyaUI_autogen/mocs_compilation.i: MatsyaUI_autogen/mocs_compilation.cpp.i
@@ -274,7 +274,7 @@ MatsyaUI_autogen/mocs_compilation.i: MatsyaUI_autogen/mocs_compilation.cpp.i
 
 # target to preprocess a source file
 MatsyaUI_autogen/mocs_compilation.cpp.i:
-	cd /home/tokyo/clone/satya/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/MatsyaUI_autogen/mocs_compilation.cpp.i
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/MatsyaUI_autogen/mocs_compilation.cpp.i
 .PHONY : MatsyaUI_autogen/mocs_compilation.cpp.i
 
 MatsyaUI_autogen/mocs_compilation.s: MatsyaUI_autogen/mocs_compilation.cpp.s
@@ -283,7 +283,7 @@ MatsyaUI_autogen/mocs_compilation.s: MatsyaUI_autogen/mocs_compilation.cpp.s
 
 # target to generate assembly for a file
 MatsyaUI_autogen/mocs_compilation.cpp.s:
-	cd /home/tokyo/clone/satya/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/MatsyaUI_autogen/mocs_compilation.cpp.s
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/MatsyaUI_autogen/mocs_compilation.cpp.s
 .PHONY : MatsyaUI_autogen/mocs_compilation.cpp.s
 
 desktop/menupopupwindow.o: desktop/menupopupwindow.cpp.o
@@ -292,7 +292,7 @@ desktop/menupopupwindow.o: desktop/menupopupwindow.cpp.o
 
 # target to build an object file
 desktop/menupopupwindow.cpp.o:
-	cd /home/tokyo/clone/satya/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/desktop/menupopupwindow.cpp.o
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/desktop/menupopupwindow.cpp.o
 .PHONY : desktop/menupopupwindow.cpp.o
 
 desktop/menupopupwindow.i: desktop/menupopupwindow.cpp.i
@@ -301,7 +301,7 @@ desktop/menupopupwindow.i: desktop/menupopupwindow.cpp.i
 
 # target to preprocess a source file
 desktop/menupopupwindow.cpp.i:
-	cd /home/tokyo/clone/satya/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/desktop/menupopupwindow.cpp.i
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/desktop/menupopupwindow.cpp.i
 .PHONY : desktop/menupopupwindow.cpp.i
 
 desktop/menupopupwindow.s: desktop/menupopupwindow.cpp.s
@@ -310,7 +310,7 @@ desktop/menupopupwindow.s: desktop/menupopupwindow.cpp.s
 
 # target to generate assembly for a file
 desktop/menupopupwindow.cpp.s:
-	cd /home/tokyo/clone/satya/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/desktop/menupopupwindow.cpp.s
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/desktop/menupopupwindow.cpp.s
 .PHONY : desktop/menupopupwindow.cpp.s
 
 iconthemeprovider.o: iconthemeprovider.cpp.o
@@ -319,7 +319,7 @@ iconthemeprovider.o: iconthemeprovider.cpp.o
 
 # target to build an object file
 iconthemeprovider.cpp.o:
-	cd /home/tokyo/clone/satya/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/iconthemeprovider.cpp.o
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/iconthemeprovider.cpp.o
 .PHONY : iconthemeprovider.cpp.o
 
 iconthemeprovider.i: iconthemeprovider.cpp.i
@@ -328,7 +328,7 @@ iconthemeprovider.i: iconthemeprovider.cpp.i
 
 # target to preprocess a source file
 iconthemeprovider.cpp.i:
-	cd /home/tokyo/clone/satya/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/iconthemeprovider.cpp.i
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/iconthemeprovider.cpp.i
 .PHONY : iconthemeprovider.cpp.i
 
 iconthemeprovider.s: iconthemeprovider.cpp.s
@@ -337,7 +337,7 @@ iconthemeprovider.s: iconthemeprovider.cpp.s
 
 # target to generate assembly for a file
 iconthemeprovider.cpp.s:
-	cd /home/tokyo/clone/satya/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/iconthemeprovider.cpp.s
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/iconthemeprovider.cpp.s
 .PHONY : iconthemeprovider.cpp.s
 
 managedtexturenode.o: managedtexturenode.cpp.o
@@ -346,7 +346,7 @@ managedtexturenode.o: managedtexturenode.cpp.o
 
 # target to build an object file
 managedtexturenode.cpp.o:
-	cd /home/tokyo/clone/satya/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/managedtexturenode.cpp.o
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/managedtexturenode.cpp.o
 .PHONY : managedtexturenode.cpp.o
 
 managedtexturenode.i: managedtexturenode.cpp.i
@@ -355,7 +355,7 @@ managedtexturenode.i: managedtexturenode.cpp.i
 
 # target to preprocess a source file
 managedtexturenode.cpp.i:
-	cd /home/tokyo/clone/satya/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/managedtexturenode.cpp.i
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/managedtexturenode.cpp.i
 .PHONY : managedtexturenode.cpp.i
 
 managedtexturenode.s: managedtexturenode.cpp.s
@@ -364,7 +364,7 @@ managedtexturenode.s: managedtexturenode.cpp.s
 
 # target to generate assembly for a file
 managedtexturenode.cpp.s:
-	cd /home/tokyo/clone/satya/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/managedtexturenode.cpp.s
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/managedtexturenode.cpp.s
 .PHONY : managedtexturenode.cpp.s
 
 matsyaui.o: matsyaui.cpp.o
@@ -373,7 +373,7 @@ matsyaui.o: matsyaui.cpp.o
 
 # target to build an object file
 matsyaui.cpp.o:
-	cd /home/tokyo/clone/satya/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/matsyaui.cpp.o
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/matsyaui.cpp.o
 .PHONY : matsyaui.cpp.o
 
 matsyaui.i: matsyaui.cpp.i
@@ -382,7 +382,7 @@ matsyaui.i: matsyaui.cpp.i
 
 # target to preprocess a source file
 matsyaui.cpp.i:
-	cd /home/tokyo/clone/satya/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/matsyaui.cpp.i
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/matsyaui.cpp.i
 .PHONY : matsyaui.cpp.i
 
 matsyaui.s: matsyaui.cpp.s
@@ -391,7 +391,7 @@ matsyaui.s: matsyaui.cpp.s
 
 # target to generate assembly for a file
 matsyaui.cpp.s:
-	cd /home/tokyo/clone/satya/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/matsyaui.cpp.s
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/matsyaui.cpp.s
 .PHONY : matsyaui.cpp.s
 
 newiconitem.o: newiconitem.cpp.o
@@ -400,7 +400,7 @@ newiconitem.o: newiconitem.cpp.o
 
 # target to build an object file
 newiconitem.cpp.o:
-	cd /home/tokyo/clone/satya/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/newiconitem.cpp.o
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/newiconitem.cpp.o
 .PHONY : newiconitem.cpp.o
 
 newiconitem.i: newiconitem.cpp.i
@@ -409,7 +409,7 @@ newiconitem.i: newiconitem.cpp.i
 
 # target to preprocess a source file
 newiconitem.cpp.i:
-	cd /home/tokyo/clone/satya/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/newiconitem.cpp.i
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/newiconitem.cpp.i
 .PHONY : newiconitem.cpp.i
 
 newiconitem.s: newiconitem.cpp.s
@@ -418,7 +418,7 @@ newiconitem.s: newiconitem.cpp.s
 
 # target to generate assembly for a file
 newiconitem.cpp.s:
-	cd /home/tokyo/clone/satya/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/newiconitem.cpp.s
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/newiconitem.cpp.s
 .PHONY : newiconitem.cpp.s
 
 platforms/linux/blurhelper/windowblur.o: platforms/linux/blurhelper/windowblur.cpp.o
@@ -427,7 +427,7 @@ platforms/linux/blurhelper/windowblur.o: platforms/linux/blurhelper/windowblur.c
 
 # target to build an object file
 platforms/linux/blurhelper/windowblur.cpp.o:
-	cd /home/tokyo/clone/satya/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/platforms/linux/blurhelper/windowblur.cpp.o
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/platforms/linux/blurhelper/windowblur.cpp.o
 .PHONY : platforms/linux/blurhelper/windowblur.cpp.o
 
 platforms/linux/blurhelper/windowblur.i: platforms/linux/blurhelper/windowblur.cpp.i
@@ -436,7 +436,7 @@ platforms/linux/blurhelper/windowblur.i: platforms/linux/blurhelper/windowblur.c
 
 # target to preprocess a source file
 platforms/linux/blurhelper/windowblur.cpp.i:
-	cd /home/tokyo/clone/satya/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/platforms/linux/blurhelper/windowblur.cpp.i
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/platforms/linux/blurhelper/windowblur.cpp.i
 .PHONY : platforms/linux/blurhelper/windowblur.cpp.i
 
 platforms/linux/blurhelper/windowblur.s: platforms/linux/blurhelper/windowblur.cpp.s
@@ -445,7 +445,7 @@ platforms/linux/blurhelper/windowblur.s: platforms/linux/blurhelper/windowblur.c
 
 # target to generate assembly for a file
 platforms/linux/blurhelper/windowblur.cpp.s:
-	cd /home/tokyo/clone/satya/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/platforms/linux/blurhelper/windowblur.cpp.s
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/platforms/linux/blurhelper/windowblur.cpp.s
 .PHONY : platforms/linux/blurhelper/windowblur.cpp.s
 
 platforms/linux/shadowhelper/boxshadowrenderer.o: platforms/linux/shadowhelper/boxshadowrenderer.cpp.o
@@ -454,7 +454,7 @@ platforms/linux/shadowhelper/boxshadowrenderer.o: platforms/linux/shadowhelper/b
 
 # target to build an object file
 platforms/linux/shadowhelper/boxshadowrenderer.cpp.o:
-	cd /home/tokyo/clone/satya/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/platforms/linux/shadowhelper/boxshadowrenderer.cpp.o
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/platforms/linux/shadowhelper/boxshadowrenderer.cpp.o
 .PHONY : platforms/linux/shadowhelper/boxshadowrenderer.cpp.o
 
 platforms/linux/shadowhelper/boxshadowrenderer.i: platforms/linux/shadowhelper/boxshadowrenderer.cpp.i
@@ -463,7 +463,7 @@ platforms/linux/shadowhelper/boxshadowrenderer.i: platforms/linux/shadowhelper/b
 
 # target to preprocess a source file
 platforms/linux/shadowhelper/boxshadowrenderer.cpp.i:
-	cd /home/tokyo/clone/satya/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/platforms/linux/shadowhelper/boxshadowrenderer.cpp.i
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/platforms/linux/shadowhelper/boxshadowrenderer.cpp.i
 .PHONY : platforms/linux/shadowhelper/boxshadowrenderer.cpp.i
 
 platforms/linux/shadowhelper/boxshadowrenderer.s: platforms/linux/shadowhelper/boxshadowrenderer.cpp.s
@@ -472,7 +472,7 @@ platforms/linux/shadowhelper/boxshadowrenderer.s: platforms/linux/shadowhelper/b
 
 # target to generate assembly for a file
 platforms/linux/shadowhelper/boxshadowrenderer.cpp.s:
-	cd /home/tokyo/clone/satya/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/platforms/linux/shadowhelper/boxshadowrenderer.cpp.s
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/platforms/linux/shadowhelper/boxshadowrenderer.cpp.s
 .PHONY : platforms/linux/shadowhelper/boxshadowrenderer.cpp.s
 
 platforms/linux/shadowhelper/tileset.o: platforms/linux/shadowhelper/tileset.cpp.o
@@ -481,7 +481,7 @@ platforms/linux/shadowhelper/tileset.o: platforms/linux/shadowhelper/tileset.cpp
 
 # target to build an object file
 platforms/linux/shadowhelper/tileset.cpp.o:
-	cd /home/tokyo/clone/satya/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/platforms/linux/shadowhelper/tileset.cpp.o
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/platforms/linux/shadowhelper/tileset.cpp.o
 .PHONY : platforms/linux/shadowhelper/tileset.cpp.o
 
 platforms/linux/shadowhelper/tileset.i: platforms/linux/shadowhelper/tileset.cpp.i
@@ -490,7 +490,7 @@ platforms/linux/shadowhelper/tileset.i: platforms/linux/shadowhelper/tileset.cpp
 
 # target to preprocess a source file
 platforms/linux/shadowhelper/tileset.cpp.i:
-	cd /home/tokyo/clone/satya/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/platforms/linux/shadowhelper/tileset.cpp.i
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/platforms/linux/shadowhelper/tileset.cpp.i
 .PHONY : platforms/linux/shadowhelper/tileset.cpp.i
 
 platforms/linux/shadowhelper/tileset.s: platforms/linux/shadowhelper/tileset.cpp.s
@@ -499,7 +499,7 @@ platforms/linux/shadowhelper/tileset.s: platforms/linux/shadowhelper/tileset.cpp
 
 # target to generate assembly for a file
 platforms/linux/shadowhelper/tileset.cpp.s:
-	cd /home/tokyo/clone/satya/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/platforms/linux/shadowhelper/tileset.cpp.s
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/platforms/linux/shadowhelper/tileset.cpp.s
 .PHONY : platforms/linux/shadowhelper/tileset.cpp.s
 
 platforms/linux/shadowhelper/windowshadow.o: platforms/linux/shadowhelper/windowshadow.cpp.o
@@ -508,7 +508,7 @@ platforms/linux/shadowhelper/windowshadow.o: platforms/linux/shadowhelper/window
 
 # target to build an object file
 platforms/linux/shadowhelper/windowshadow.cpp.o:
-	cd /home/tokyo/clone/satya/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/platforms/linux/shadowhelper/windowshadow.cpp.o
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/platforms/linux/shadowhelper/windowshadow.cpp.o
 .PHONY : platforms/linux/shadowhelper/windowshadow.cpp.o
 
 platforms/linux/shadowhelper/windowshadow.i: platforms/linux/shadowhelper/windowshadow.cpp.i
@@ -517,7 +517,7 @@ platforms/linux/shadowhelper/windowshadow.i: platforms/linux/shadowhelper/window
 
 # target to preprocess a source file
 platforms/linux/shadowhelper/windowshadow.cpp.i:
-	cd /home/tokyo/clone/satya/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/platforms/linux/shadowhelper/windowshadow.cpp.i
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/platforms/linux/shadowhelper/windowshadow.cpp.i
 .PHONY : platforms/linux/shadowhelper/windowshadow.cpp.i
 
 platforms/linux/shadowhelper/windowshadow.s: platforms/linux/shadowhelper/windowshadow.cpp.s
@@ -526,7 +526,7 @@ platforms/linux/shadowhelper/windowshadow.s: platforms/linux/shadowhelper/window
 
 # target to generate assembly for a file
 platforms/linux/shadowhelper/windowshadow.cpp.s:
-	cd /home/tokyo/clone/satya/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/platforms/linux/shadowhelper/windowshadow.cpp.s
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/platforms/linux/shadowhelper/windowshadow.cpp.s
 .PHONY : platforms/linux/shadowhelper/windowshadow.cpp.s
 
 platforms/linux/windowhelper.o: platforms/linux/windowhelper.cpp.o
@@ -535,7 +535,7 @@ platforms/linux/windowhelper.o: platforms/linux/windowhelper.cpp.o
 
 # target to build an object file
 platforms/linux/windowhelper.cpp.o:
-	cd /home/tokyo/clone/satya/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/platforms/linux/windowhelper.cpp.o
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/platforms/linux/windowhelper.cpp.o
 .PHONY : platforms/linux/windowhelper.cpp.o
 
 platforms/linux/windowhelper.i: platforms/linux/windowhelper.cpp.i
@@ -544,7 +544,7 @@ platforms/linux/windowhelper.i: platforms/linux/windowhelper.cpp.i
 
 # target to preprocess a source file
 platforms/linux/windowhelper.cpp.i:
-	cd /home/tokyo/clone/satya/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/platforms/linux/windowhelper.cpp.i
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/platforms/linux/windowhelper.cpp.i
 .PHONY : platforms/linux/windowhelper.cpp.i
 
 platforms/linux/windowhelper.s: platforms/linux/windowhelper.cpp.s
@@ -553,7 +553,7 @@ platforms/linux/windowhelper.s: platforms/linux/windowhelper.cpp.s
 
 # target to generate assembly for a file
 platforms/linux/windowhelper.cpp.s:
-	cd /home/tokyo/clone/satya/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/platforms/linux/windowhelper.cpp.s
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/platforms/linux/windowhelper.cpp.s
 .PHONY : platforms/linux/windowhelper.cpp.s
 
 qqmlsortfilterproxymodel.o: qqmlsortfilterproxymodel.cpp.o
@@ -562,7 +562,7 @@ qqmlsortfilterproxymodel.o: qqmlsortfilterproxymodel.cpp.o
 
 # target to build an object file
 qqmlsortfilterproxymodel.cpp.o:
-	cd /home/tokyo/clone/satya/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/qqmlsortfilterproxymodel.cpp.o
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/qqmlsortfilterproxymodel.cpp.o
 .PHONY : qqmlsortfilterproxymodel.cpp.o
 
 qqmlsortfilterproxymodel.i: qqmlsortfilterproxymodel.cpp.i
@@ -571,7 +571,7 @@ qqmlsortfilterproxymodel.i: qqmlsortfilterproxymodel.cpp.i
 
 # target to preprocess a source file
 qqmlsortfilterproxymodel.cpp.i:
-	cd /home/tokyo/clone/satya/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/qqmlsortfilterproxymodel.cpp.i
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/qqmlsortfilterproxymodel.cpp.i
 .PHONY : qqmlsortfilterproxymodel.cpp.i
 
 qqmlsortfilterproxymodel.s: qqmlsortfilterproxymodel.cpp.s
@@ -580,7 +580,7 @@ qqmlsortfilterproxymodel.s: qqmlsortfilterproxymodel.cpp.s
 
 # target to generate assembly for a file
 qqmlsortfilterproxymodel.cpp.s:
-	cd /home/tokyo/clone/satya/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/qqmlsortfilterproxymodel.cpp.s
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/qqmlsortfilterproxymodel.cpp.s
 .PHONY : qqmlsortfilterproxymodel.cpp.s
 
 thememanager.o: thememanager.cpp.o
@@ -589,7 +589,7 @@ thememanager.o: thememanager.cpp.o
 
 # target to build an object file
 thememanager.cpp.o:
-	cd /home/tokyo/clone/satya/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/thememanager.cpp.o
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/thememanager.cpp.o
 .PHONY : thememanager.cpp.o
 
 thememanager.i: thememanager.cpp.i
@@ -598,7 +598,7 @@ thememanager.i: thememanager.cpp.i
 
 # target to preprocess a source file
 thememanager.cpp.i:
-	cd /home/tokyo/clone/satya/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/thememanager.cpp.i
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/thememanager.cpp.i
 .PHONY : thememanager.cpp.i
 
 thememanager.s: thememanager.cpp.s
@@ -607,7 +607,7 @@ thememanager.s: thememanager.cpp.s
 
 # target to generate assembly for a file
 thememanager.cpp.s:
-	cd /home/tokyo/clone/satya/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/thememanager.cpp.s
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/thememanager.cpp.s
 .PHONY : thememanager.cpp.s
 
 wheelhandler.o: wheelhandler.cpp.o
@@ -616,7 +616,7 @@ wheelhandler.o: wheelhandler.cpp.o
 
 # target to build an object file
 wheelhandler.cpp.o:
-	cd /home/tokyo/clone/satya/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/wheelhandler.cpp.o
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/wheelhandler.cpp.o
 .PHONY : wheelhandler.cpp.o
 
 wheelhandler.i: wheelhandler.cpp.i
@@ -625,7 +625,7 @@ wheelhandler.i: wheelhandler.cpp.i
 
 # target to preprocess a source file
 wheelhandler.cpp.i:
-	cd /home/tokyo/clone/satya/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/wheelhandler.cpp.i
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/wheelhandler.cpp.i
 .PHONY : wheelhandler.cpp.i
 
 wheelhandler.s: wheelhandler.cpp.s
@@ -634,7 +634,7 @@ wheelhandler.s: wheelhandler.cpp.s
 
 # target to generate assembly for a file
 wheelhandler.cpp.s:
-	cd /home/tokyo/clone/satya/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/wheelhandler.cpp.s
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/MatsyaUI.dir/build.make src/CMakeFiles/MatsyaUI.dir/wheelhandler.cpp.s
 .PHONY : wheelhandler.cpp.s
 
 # Help Target
@@ -710,6 +710,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/tokyo/clone/satya/matsyaui/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/tokyo/Documents/GitHub/matsyaui/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

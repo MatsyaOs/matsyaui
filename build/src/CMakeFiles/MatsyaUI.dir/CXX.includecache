@@ -74,21 +74,21 @@ QSortFilterProxyModel
 QQmlExpression
 -
 
-/home/tokyo/clone/satya/matsyaui/build/src/MatsyaUI_autogen/BOXWVT77SO/moc_windowhelper.cpp
+/home/tokyo/Documents/GitHub/matsyaui/build/src/MatsyaUI_autogen/BOXWVT77SO/moc_windowhelper.cpp
 memory
 -
 ../../../../src/platforms/linux/windowhelper.h
-/home/tokyo/clone/satya/matsyaui/src/platforms/linux/windowhelper.h
+/home/tokyo/Documents/GitHub/matsyaui/src/platforms/linux/windowhelper.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/tokyo/clone/satya/matsyaui/build/src/MatsyaUI_autogen/EWIEGA46WW/moc_matsyaui.cpp
+/home/tokyo/Documents/GitHub/matsyaui/build/src/MatsyaUI_autogen/EWIEGA46WW/moc_matsyaui.cpp
 memory
 -
 ../../../../src/matsyaui.h
-/home/tokyo/clone/satya/matsyaui/src/matsyaui.h
+/home/tokyo/Documents/GitHub/matsyaui/src/matsyaui.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
@@ -96,91 +96,91 @@ QtCore/qmetatype.h
 QtCore/qplugin.h
 -
 
-/home/tokyo/clone/satya/matsyaui/build/src/MatsyaUI_autogen/EWIEGA46WW/moc_newiconitem.cpp
+/home/tokyo/Documents/GitHub/matsyaui/build/src/MatsyaUI_autogen/EWIEGA46WW/moc_newiconitem.cpp
 memory
 -
 ../../../../src/newiconitem.h
-/home/tokyo/clone/satya/matsyaui/src/newiconitem.h
+/home/tokyo/Documents/GitHub/matsyaui/src/newiconitem.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/tokyo/clone/satya/matsyaui/build/src/MatsyaUI_autogen/EWIEGA46WW/moc_thememanager.cpp
+/home/tokyo/Documents/GitHub/matsyaui/build/src/MatsyaUI_autogen/EWIEGA46WW/moc_thememanager.cpp
 memory
 -
 ../../../../src/thememanager.h
-/home/tokyo/clone/satya/matsyaui/src/thememanager.h
+/home/tokyo/Documents/GitHub/matsyaui/src/thememanager.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/tokyo/clone/satya/matsyaui/build/src/MatsyaUI_autogen/EWIEGA46WW/moc_wheelhandler.cpp
+/home/tokyo/Documents/GitHub/matsyaui/build/src/MatsyaUI_autogen/EWIEGA46WW/moc_wheelhandler.cpp
 memory
 -
 ../../../../src/wheelhandler.h
-/home/tokyo/clone/satya/matsyaui/src/wheelhandler.h
+/home/tokyo/Documents/GitHub/matsyaui/src/wheelhandler.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/tokyo/clone/satya/matsyaui/build/src/MatsyaUI_autogen/EWIEGA46WW/qrc_matsyaui.cpp
+/home/tokyo/Documents/GitHub/matsyaui/build/src/MatsyaUI_autogen/EWIEGA46WW/qrc_matsyaui.cpp
 
-/home/tokyo/clone/satya/matsyaui/build/src/MatsyaUI_autogen/LWCCXFOERB/moc_windowshadow.cpp
+/home/tokyo/Documents/GitHub/matsyaui/build/src/MatsyaUI_autogen/LWCCXFOERB/moc_windowshadow.cpp
 memory
 -
 ../../../../src/platforms/linux/shadowhelper/windowshadow.h
-/home/tokyo/clone/satya/matsyaui/src/platforms/linux/shadowhelper/windowshadow.h
+/home/tokyo/Documents/GitHub/matsyaui/src/platforms/linux/shadowhelper/windowshadow.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/tokyo/clone/satya/matsyaui/build/src/MatsyaUI_autogen/NTHHH2CSJL/moc_menupopupwindow.cpp
+/home/tokyo/Documents/GitHub/matsyaui/build/src/MatsyaUI_autogen/NTHHH2CSJL/moc_menupopupwindow.cpp
 memory
 -
 ../../../../src/desktop/menupopupwindow.h
-/home/tokyo/clone/satya/matsyaui/src/desktop/menupopupwindow.h
+/home/tokyo/Documents/GitHub/matsyaui/src/desktop/menupopupwindow.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/tokyo/clone/satya/matsyaui/build/src/MatsyaUI_autogen/RUK3WWBKTH/moc_windowblur.cpp
+/home/tokyo/Documents/GitHub/matsyaui/build/src/MatsyaUI_autogen/RUK3WWBKTH/moc_windowblur.cpp
 memory
 -
 ../../../../src/platforms/linux/blurhelper/windowblur.h
-/home/tokyo/clone/satya/matsyaui/src/platforms/linux/blurhelper/windowblur.h
+/home/tokyo/Documents/GitHub/matsyaui/src/platforms/linux/blurhelper/windowblur.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/tokyo/clone/satya/matsyaui/build/src/MatsyaUI_autogen/SYRDMENBTL/qrc_style.cpp
+/home/tokyo/Documents/GitHub/matsyaui/build/src/MatsyaUI_autogen/SYRDMENBTL/qrc_style.cpp
 
-/home/tokyo/clone/satya/matsyaui/build/src/MatsyaUI_autogen/mocs_compilation.cpp
+/home/tokyo/Documents/GitHub/matsyaui/build/src/MatsyaUI_autogen/mocs_compilation.cpp
 NTHHH2CSJL/moc_menupopupwindow.cpp
-/home/tokyo/clone/satya/matsyaui/build/src/MatsyaUI_autogen/NTHHH2CSJL/moc_menupopupwindow.cpp
+/home/tokyo/Documents/GitHub/matsyaui/build/src/MatsyaUI_autogen/NTHHH2CSJL/moc_menupopupwindow.cpp
 EWIEGA46WW/moc_matsyaui.cpp
-/home/tokyo/clone/satya/matsyaui/build/src/MatsyaUI_autogen/EWIEGA46WW/moc_matsyaui.cpp
+/home/tokyo/Documents/GitHub/matsyaui/build/src/MatsyaUI_autogen/EWIEGA46WW/moc_matsyaui.cpp
 EWIEGA46WW/moc_newiconitem.cpp
-/home/tokyo/clone/satya/matsyaui/build/src/MatsyaUI_autogen/EWIEGA46WW/moc_newiconitem.cpp
+/home/tokyo/Documents/GitHub/matsyaui/build/src/MatsyaUI_autogen/EWIEGA46WW/moc_newiconitem.cpp
 RUK3WWBKTH/moc_windowblur.cpp
-/home/tokyo/clone/satya/matsyaui/build/src/MatsyaUI_autogen/RUK3WWBKTH/moc_windowblur.cpp
+/home/tokyo/Documents/GitHub/matsyaui/build/src/MatsyaUI_autogen/RUK3WWBKTH/moc_windowblur.cpp
 LWCCXFOERB/moc_windowshadow.cpp
-/home/tokyo/clone/satya/matsyaui/build/src/MatsyaUI_autogen/LWCCXFOERB/moc_windowshadow.cpp
+/home/tokyo/Documents/GitHub/matsyaui/build/src/MatsyaUI_autogen/LWCCXFOERB/moc_windowshadow.cpp
 BOXWVT77SO/moc_windowhelper.cpp
-/home/tokyo/clone/satya/matsyaui/build/src/MatsyaUI_autogen/BOXWVT77SO/moc_windowhelper.cpp
+/home/tokyo/Documents/GitHub/matsyaui/build/src/MatsyaUI_autogen/BOXWVT77SO/moc_windowhelper.cpp
 EWIEGA46WW/moc_thememanager.cpp
-/home/tokyo/clone/satya/matsyaui/build/src/MatsyaUI_autogen/EWIEGA46WW/moc_thememanager.cpp
+/home/tokyo/Documents/GitHub/matsyaui/build/src/MatsyaUI_autogen/EWIEGA46WW/moc_thememanager.cpp
 EWIEGA46WW/moc_wheelhandler.cpp
-/home/tokyo/clone/satya/matsyaui/build/src/MatsyaUI_autogen/EWIEGA46WW/moc_wheelhandler.cpp
+/home/tokyo/Documents/GitHub/matsyaui/build/src/MatsyaUI_autogen/EWIEGA46WW/moc_wheelhandler.cpp
 
-/home/tokyo/clone/satya/matsyaui/src/desktop/menupopupwindow.cpp
+/home/tokyo/Documents/GitHub/matsyaui/src/desktop/menupopupwindow.cpp
 menupopupwindow.h
-/home/tokyo/clone/satya/matsyaui/src/desktop/menupopupwindow.h
+/home/tokyo/Documents/GitHub/matsyaui/src/desktop/menupopupwindow.h
 QGuiApplication
 -
 QQuickRenderControl
@@ -190,7 +190,7 @@ QQuickItem
 QScreen
 -
 
-/home/tokyo/clone/satya/matsyaui/src/desktop/menupopupwindow.h
+/home/tokyo/Documents/GitHub/matsyaui/src/desktop/menupopupwindow.h
 QQuickWindow
 -
 QQuickItem
@@ -198,23 +198,23 @@ QQuickItem
 QPointer
 -
 
-/home/tokyo/clone/satya/matsyaui/src/iconthemeprovider.cpp
+/home/tokyo/Documents/GitHub/matsyaui/src/iconthemeprovider.cpp
 iconthemeprovider.h
-/home/tokyo/clone/satya/matsyaui/src/iconthemeprovider.h
+/home/tokyo/Documents/GitHub/matsyaui/src/iconthemeprovider.h
 QFile
 -
 QIcon
 -
 
-/home/tokyo/clone/satya/matsyaui/src/iconthemeprovider.h
+/home/tokyo/Documents/GitHub/matsyaui/src/iconthemeprovider.h
 QtQuick/QQuickImageProvider
 -
 
-/home/tokyo/clone/satya/matsyaui/src/managedtexturenode.cpp
+/home/tokyo/Documents/GitHub/matsyaui/src/managedtexturenode.cpp
 managedtexturenode.h
-/home/tokyo/clone/satya/matsyaui/src/managedtexturenode.h
+/home/tokyo/Documents/GitHub/matsyaui/src/managedtexturenode.h
 
-/home/tokyo/clone/satya/matsyaui/src/managedtexturenode.h
+/home/tokyo/Documents/GitHub/matsyaui/src/managedtexturenode.h
 QSGSimpleTextureNode
 -
 QSGTexture
@@ -224,27 +224,27 @@ QSharedPointer
 qglobal.h
 -
 
-/home/tokyo/clone/satya/matsyaui/src/matsyaui.cpp
+/home/tokyo/Documents/GitHub/matsyaui/src/matsyaui.cpp
 matsyaui.h
-/home/tokyo/clone/satya/matsyaui/src/matsyaui.h
+/home/tokyo/Documents/GitHub/matsyaui/src/matsyaui.h
 thememanager.h
-/home/tokyo/clone/satya/matsyaui/src/thememanager.h
+/home/tokyo/Documents/GitHub/matsyaui/src/thememanager.h
 iconthemeprovider.h
-/home/tokyo/clone/satya/matsyaui/src/iconthemeprovider.h
+/home/tokyo/Documents/GitHub/matsyaui/src/iconthemeprovider.h
 shadowhelper/windowshadow.h
-/home/tokyo/clone/satya/matsyaui/src/shadowhelper/windowshadow.h
+/home/tokyo/Documents/GitHub/matsyaui/src/shadowhelper/windowshadow.h
 blurhelper/windowblur.h
-/home/tokyo/clone/satya/matsyaui/src/blurhelper/windowblur.h
+/home/tokyo/Documents/GitHub/matsyaui/src/blurhelper/windowblur.h
 windowhelper.h
-/home/tokyo/clone/satya/matsyaui/src/windowhelper.h
+/home/tokyo/Documents/GitHub/matsyaui/src/windowhelper.h
 newiconitem.h
-/home/tokyo/clone/satya/matsyaui/src/newiconitem.h
+/home/tokyo/Documents/GitHub/matsyaui/src/newiconitem.h
 wheelhandler.h
-/home/tokyo/clone/satya/matsyaui/src/wheelhandler.h
+/home/tokyo/Documents/GitHub/matsyaui/src/wheelhandler.h
 qqmlsortfilterproxymodel.h
-/home/tokyo/clone/satya/matsyaui/src/qqmlsortfilterproxymodel.h
+/home/tokyo/Documents/GitHub/matsyaui/src/qqmlsortfilterproxymodel.h
 desktop/menupopupwindow.h
-/home/tokyo/clone/satya/matsyaui/src/desktop/menupopupwindow.h
+/home/tokyo/Documents/GitHub/matsyaui/src/desktop/menupopupwindow.h
 QDebug
 -
 QQmlEngine
@@ -252,13 +252,13 @@ QQmlEngine
 QQuickStyle
 -
 
-/home/tokyo/clone/satya/matsyaui/src/matsyaui.h
+/home/tokyo/Documents/GitHub/matsyaui/src/matsyaui.h
 QtQml/QQmlExtensionPlugin
 -
 
-/home/tokyo/clone/satya/matsyaui/src/newiconitem.cpp
+/home/tokyo/Documents/GitHub/matsyaui/src/newiconitem.cpp
 newiconitem.h
-/home/tokyo/clone/satya/matsyaui/src/newiconitem.h
+/home/tokyo/Documents/GitHub/matsyaui/src/newiconitem.h
 QQuickWindow
 -
 QGuiApplication
@@ -270,7 +270,7 @@ QPainter
 QIcon
 -
 
-/home/tokyo/clone/satya/matsyaui/src/newiconitem.h
+/home/tokyo/Documents/GitHub/matsyaui/src/newiconitem.h
 QQuickPaintedItem
 -
 QPixmap
@@ -280,9 +280,9 @@ QPixmapCache
 QIcon
 -
 
-/home/tokyo/clone/satya/matsyaui/src/platforms/linux/blurhelper/windowblur.cpp
+/home/tokyo/Documents/GitHub/matsyaui/src/platforms/linux/blurhelper/windowblur.cpp
 windowblur.h
-/home/tokyo/clone/satya/matsyaui/src/platforms/linux/blurhelper/windowblur.h
+/home/tokyo/Documents/GitHub/matsyaui/src/platforms/linux/blurhelper/windowblur.h
 QApplication
 -
 QPainterPath
@@ -298,7 +298,7 @@ xcb/shape.h
 xcb/xcb_icccm.h
 -
 
-/home/tokyo/clone/satya/matsyaui/src/platforms/linux/blurhelper/windowblur.h
+/home/tokyo/Documents/GitHub/matsyaui/src/platforms/linux/blurhelper/windowblur.h
 QApplication
 -
 QObject
@@ -314,15 +314,15 @@ QWindow
 QVector
 -
 
-/home/tokyo/clone/satya/matsyaui/src/platforms/linux/shadowhelper/boxshadowrenderer.cpp
+/home/tokyo/Documents/GitHub/matsyaui/src/platforms/linux/shadowhelper/boxshadowrenderer.cpp
 boxshadowrenderer.h
-/home/tokyo/clone/satya/matsyaui/src/platforms/linux/shadowhelper/boxshadowrenderer.h
+/home/tokyo/Documents/GitHub/matsyaui/src/platforms/linux/shadowhelper/boxshadowrenderer.h
 QPainter
 -
 QtMath
 -
 
-/home/tokyo/clone/satya/matsyaui/src/platforms/linux/shadowhelper/boxshadowrenderer.h
+/home/tokyo/Documents/GitHub/matsyaui/src/platforms/linux/shadowhelper/boxshadowrenderer.h
 QColor
 -
 QImage
@@ -332,13 +332,13 @@ QPoint
 QSize
 -
 
-/home/tokyo/clone/satya/matsyaui/src/platforms/linux/shadowhelper/tileset.cpp
+/home/tokyo/Documents/GitHub/matsyaui/src/platforms/linux/shadowhelper/tileset.cpp
 tileset.h
-/home/tokyo/clone/satya/matsyaui/src/platforms/linux/shadowhelper/tileset.h
+/home/tokyo/Documents/GitHub/matsyaui/src/platforms/linux/shadowhelper/tileset.h
 QPainter
 -
 
-/home/tokyo/clone/satya/matsyaui/src/platforms/linux/shadowhelper/tileset.h
+/home/tokyo/Documents/GitHub/matsyaui/src/platforms/linux/shadowhelper/tileset.h
 QPixmap
 -
 QRect
@@ -346,17 +346,17 @@ QRect
 QVector
 -
 
-/home/tokyo/clone/satya/matsyaui/src/platforms/linux/shadowhelper/windowshadow.cpp
+/home/tokyo/Documents/GitHub/matsyaui/src/platforms/linux/shadowhelper/windowshadow.cpp
 windowshadow.h
-/home/tokyo/clone/satya/matsyaui/src/platforms/linux/shadowhelper/windowshadow.h
+/home/tokyo/Documents/GitHub/matsyaui/src/platforms/linux/shadowhelper/windowshadow.h
 boxshadowrenderer.h
-/home/tokyo/clone/satya/matsyaui/src/platforms/linux/shadowhelper/boxshadowrenderer.h
+/home/tokyo/Documents/GitHub/matsyaui/src/platforms/linux/shadowhelper/boxshadowrenderer.h
 QDebug
 -
 
-/home/tokyo/clone/satya/matsyaui/src/platforms/linux/shadowhelper/windowshadow.h
+/home/tokyo/Documents/GitHub/matsyaui/src/platforms/linux/shadowhelper/windowshadow.h
 tileset.h
-/home/tokyo/clone/satya/matsyaui/src/platforms/linux/shadowhelper/tileset.h
+/home/tokyo/Documents/GitHub/matsyaui/src/platforms/linux/shadowhelper/tileset.h
 KWindowShadow
 -
 KWindowShadowTile
@@ -384,9 +384,9 @@ QWindow
 QVector
 -
 
-/home/tokyo/clone/satya/matsyaui/src/platforms/linux/windowhelper.cpp
+/home/tokyo/Documents/GitHub/matsyaui/src/platforms/linux/windowhelper.cpp
 windowhelper.h
-/home/tokyo/clone/satya/matsyaui/src/platforms/linux/windowhelper.h
+/home/tokyo/Documents/GitHub/matsyaui/src/platforms/linux/windowhelper.h
 QApplication
 -
 QX11Info
@@ -396,7 +396,7 @@ QCursor
 KWindowSystem
 -
 
-/home/tokyo/clone/satya/matsyaui/src/platforms/linux/windowhelper.h
+/home/tokyo/Documents/GitHub/matsyaui/src/platforms/linux/windowhelper.h
 QObject
 -
 QWindow
@@ -404,23 +404,23 @@ QWindow
 xcb/xcb.h
 -
 
-/home/tokyo/clone/satya/matsyaui/src/qqmlsortfilterproxymodel.cpp
+/home/tokyo/Documents/GitHub/matsyaui/src/qqmlsortfilterproxymodel.cpp
 qqmlsortfilterproxymodel.h
-/home/tokyo/clone/satya/matsyaui/src/qqmlsortfilterproxymodel.h
+/home/tokyo/Documents/GitHub/matsyaui/src/qqmlsortfilterproxymodel.h
 QtQml
 -
 moc_qqmlsortfilterproxymodel.cpp
-/home/tokyo/clone/satya/matsyaui/src/moc_qqmlsortfilterproxymodel.cpp
+/home/tokyo/Documents/GitHub/matsyaui/src/moc_qqmlsortfilterproxymodel.cpp
 
-/home/tokyo/clone/satya/matsyaui/src/qqmlsortfilterproxymodel.h
+/home/tokyo/Documents/GitHub/matsyaui/src/qqmlsortfilterproxymodel.h
 QSortFilterProxyModel
 -
 QQmlExpression
 -
 
-/home/tokyo/clone/satya/matsyaui/src/thememanager.cpp
+/home/tokyo/Documents/GitHub/matsyaui/src/thememanager.cpp
 thememanager.h
-/home/tokyo/clone/satya/matsyaui/src/thememanager.h
+/home/tokyo/Documents/GitHub/matsyaui/src/thememanager.h
 QGuiApplication
 -
 QDBusConnection
@@ -432,7 +432,7 @@ QDBusInterface
 QDebug
 -
 
-/home/tokyo/clone/satya/matsyaui/src/thememanager.h
+/home/tokyo/Documents/GitHub/matsyaui/src/thememanager.h
 QObject
 -
 QFont
@@ -440,15 +440,15 @@ QFont
 QColor
 -
 
-/home/tokyo/clone/satya/matsyaui/src/wheelhandler.cpp
+/home/tokyo/Documents/GitHub/matsyaui/src/wheelhandler.cpp
 wheelhandler.h
-/home/tokyo/clone/satya/matsyaui/src/wheelhandler.h
+/home/tokyo/Documents/GitHub/matsyaui/src/wheelhandler.h
 QDebug
 -
 QWheelEvent
 -
 
-/home/tokyo/clone/satya/matsyaui/src/wheelhandler.h
+/home/tokyo/Documents/GitHub/matsyaui/src/wheelhandler.h
 QObject
 -
 QPoint

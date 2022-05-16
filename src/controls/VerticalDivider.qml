@@ -4,7 +4,7 @@ import MatsyaUI 1.0 as MatsyaUI
 import QtQuick.Controls 2.12
 import QtGraphicalEffects 1.0
 
-import Cutefish.Dock 1.0
+import Matsya.Dock 1.0
 Item {
     id: control
     property bool isHorizontal: Settings.direction === DockSettings.Bottom

@@ -1,5 +1,5 @@
-/home/tokyo/clone/satya/matsyaui/build/src/MatsyaUI_autogen/include/moc_qqmlsortfilterproxymodel.cpp: /home/tokyo/clone/satya/matsyaui/src/qqmlsortfilterproxymodel.h \
-  /home/tokyo/clone/satya/matsyaui/build/src/MatsyaUI_autogen/moc_predefs.h \
+/home/tokyo/Documents/GitHub/matsyaui/build/src/MatsyaUI_autogen/include/moc_qqmlsortfilterproxymodel.cpp: /home/tokyo/Documents/GitHub/matsyaui/src/qqmlsortfilterproxymodel.h \
+  /home/tokyo/Documents/GitHub/matsyaui/build/src/MatsyaUI_autogen/moc_predefs.h \
   /usr/include/alloca.h \
   /usr/include/assert.h \
   /usr/include/c++/10/algorithm \

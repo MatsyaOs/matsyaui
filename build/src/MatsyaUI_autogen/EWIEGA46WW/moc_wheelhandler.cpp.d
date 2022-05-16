@@ -1,5 +1,5 @@
-/home/tokyo/clone/satya/matsyaui/build/src/MatsyaUI_autogen/EWIEGA46WW/moc_wheelhandler.cpp: /home/tokyo/clone/satya/matsyaui/src/wheelhandler.h \
-  /home/tokyo/clone/satya/matsyaui/build/src/MatsyaUI_autogen/moc_predefs.h \
+/home/tokyo/Documents/GitHub/matsyaui/build/src/MatsyaUI_autogen/EWIEGA46WW/moc_wheelhandler.cpp: /home/tokyo/Documents/GitHub/matsyaui/src/wheelhandler.h \
+  /home/tokyo/Documents/GitHub/matsyaui/build/src/MatsyaUI_autogen/moc_predefs.h \
   /usr/include/alloca.h \
   /usr/include/assert.h \
   /usr/include/c++/10/algorithm \

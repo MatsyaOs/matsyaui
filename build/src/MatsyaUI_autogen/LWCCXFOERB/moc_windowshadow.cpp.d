@@ -1,6 +1,6 @@
-/home/tokyo/clone/satya/matsyaui/build/src/MatsyaUI_autogen/LWCCXFOERB/moc_windowshadow.cpp: /home/tokyo/clone/satya/matsyaui/src/platforms/linux/shadowhelper/windowshadow.h \
-  /home/tokyo/clone/satya/matsyaui/build/src/MatsyaUI_autogen/moc_predefs.h \
-  /home/tokyo/clone/satya/matsyaui/src/platforms/linux/shadowhelper/tileset.h \
+/home/tokyo/Documents/GitHub/matsyaui/build/src/MatsyaUI_autogen/LWCCXFOERB/moc_windowshadow.cpp: /home/tokyo/Documents/GitHub/matsyaui/src/platforms/linux/shadowhelper/windowshadow.h \
+  /home/tokyo/Documents/GitHub/matsyaui/build/src/MatsyaUI_autogen/moc_predefs.h \
+  /home/tokyo/Documents/GitHub/matsyaui/src/platforms/linux/shadowhelper/tileset.h \
   /usr/include/KF5/KWindowSystem/KWindowShadow \
   /usr/include/KF5/KWindowSystem/KWindowShadowTile \
   /usr/include/KF5/KWindowSystem/KWindowSystem \

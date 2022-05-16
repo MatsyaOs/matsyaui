@@ -1,5 +1,5 @@
-/home/tokyo/clone/satya/matsyaui/build/src/MatsyaUI_autogen/NTHHH2CSJL/moc_menupopupwindow.cpp: /home/tokyo/clone/satya/matsyaui/src/desktop/menupopupwindow.h \
-  /home/tokyo/clone/satya/matsyaui/build/src/MatsyaUI_autogen/moc_predefs.h \
+/home/tokyo/Documents/GitHub/matsyaui/build/src/MatsyaUI_autogen/NTHHH2CSJL/moc_menupopupwindow.cpp: /home/tokyo/Documents/GitHub/matsyaui/src/desktop/menupopupwindow.h \
+  /home/tokyo/Documents/GitHub/matsyaui/build/src/MatsyaUI_autogen/moc_predefs.h \
   /usr/include/GL/gl.h \
   /usr/include/alloca.h \
   /usr/include/assert.h \
