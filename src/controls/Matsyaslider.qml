@@ -64,7 +64,7 @@ handle: Rectangle {
             width: control.horizontal ? control.position * parent.width: sliderTrackHeight
             height: !control.horizontal ? control.position * parent.height : sliderTrackHeight
             radius: !control.horizontal ? parent.width / 2 : sliderTrackHeight / 2
-            color: MatsyaUI.Theme.darkMode ?  Qt.rgba(0, 0, 0, 0.5) : Qt.rgba(255, 255, 255, 0.7)
+            color:MatsyaUI.Theme.highlightColor //MatsyaUI.Theme.darkMode ?  Qt.rgba(0, 0, 0, 0.5) : Qt.rgba(255, 255, 255, 0.7)
     Image {
         id: jigsawImage
         anchors.centerIn: parent

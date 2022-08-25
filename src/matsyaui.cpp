@@ -62,6 +62,7 @@ void MatsyaUI::registerTypes(const char *uri)
     qmlRegisterType<WheelHandler>(uri, 1, 0, "WheelHandler");
     qmlRegisterType<QQmlSortFilterProxyModel>(uri, 1, 0, "SortFilterProxyModel");
 
+    qmlRegisterSingletonType(componentUrl(QStringLiteral("MTheme.qml")), uri, 1, 0, "MTheme");
     qmlRegisterSingletonType(componentUrl(QStringLiteral("Theme.qml")), uri, 1, 0, "Theme");
     qmlRegisterSingletonType(componentUrl(QStringLiteral("Units.qml")), uri, 1, 0, "Units");
 
@@ -71,6 +72,10 @@ void MatsyaUI::registerTypes(const char *uri)
     qmlRegisterType(componentUrl(QStringLiteral("VerticalDivider.qml")), uri, 1, 0, "VD");
     qmlRegisterType(componentUrl(QStringLiteral("HowerColor.qml")), uri, 1, 0, "HWC");
     qmlRegisterType(componentUrl(QStringLiteral("mprisfullview.qml")), uri, 1, 0, "MFV");
+    qmlRegisterType(componentUrl(QStringLiteral("HorizontalDivider.qml")), uri, 1, 0, "HorizontalDivider");
+    qmlRegisterType(componentUrl(QStringLiteral("RoundedItem.qml")), uri, 1, 0, "RoundedItem");
+    qmlRegisterType(componentUrl(QStringLiteral("Scrollable.qml")), uri, 1, 0, "Scrollable");
+    qmlRegisterType(componentUrl(QStringLiteral("PairDialog.qml")), uri, 1, 0, "PairDialog");
 
 
 

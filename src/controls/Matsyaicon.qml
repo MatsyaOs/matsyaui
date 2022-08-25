@@ -6,7 +6,7 @@ import MatsyaUI 1.0 as MatsyaUI
 Item {
     id: control
 
-    property var size: 16
+    property var size: 20
     property var iconMargins: 0
     height: size
     width: size

@@ -9,6 +9,7 @@ designersupported
 
 typeinfo plugins.qmltypes
 
+singleton MTheme 1.0 MTheme.qml
 singleton Theme 1.0 Theme.qml
 singleton Units 1.0 Units.qml
 
@@ -26,8 +27,12 @@ TabBar 1.0 TabBar.qml
 TabButton 1.0 TabButton.qml
 TabCloseButton 1.0 TabCloseButton.qml
 TabView 1.0 TabView.qml
-
 Toast 1.0 Toast.qml
+
+HorizontalDivider 1.0 HorizontalDivider.qml
+RoundedItem 1.0 RoundedItem.qml
+Scrollable 1.0 Scrollable.qml
+PairDialog 1.0 PairDialog.qml
 Matsyaslider 1.0 Matsyaslider.qml
 MatsyaIconButton 1.0 MatsyaIconButton.qml
 MatsyaWindow 1.0 MatsyaWindow.qml

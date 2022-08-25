@@ -29,6 +29,8 @@ Window {
     id: control
     width: 640
     height: 480
+minimumWidth:1360*0.04
+minimumHeight:768*0.04
     visible: true
     flags: Qt.FramelessWindowHint
     color: "transparent"
@@ -292,7 +294,7 @@ RowLayout {
                     
                     // Window buttons
                     Matsyaicon {
-                        size:22 //_header.buttonSize
+                        size:18 //_header.buttonSize
                         source: "qrc:/matsyaui/kit/images/" + (MatsyaUI.Theme.darkMode ? "dark/" : "light/") + "clos"
                         onClicked: control.close()
                         // visible: !control.isFullScreen
@@ -303,7 +305,7 @@ RowLayout {
                         iconMargins: 2
                     }
                     Matsyaicon {
-                        size: 22//_header.buttonSize
+                        size:18//_header.buttonSize
                         source: "qrc:/matsyaui/kit/images/" + (MatsyaUI.Theme.darkMode ? "dark/" : "light/") + "minimiz"
                         onClicked: windowHelper.minimizeWindow(control)
                         visible: control.minimizeButtonVisible
@@ -315,7 +317,7 @@ RowLayout {
                     }
 
                   Matsyaicon {
-                        size: 22//_header.buttonSize
+                        size:18//_header.buttonSize
                         source: "qrc:/matsyaui/kit/images/" +
                             (MatsyaUI.Theme.darkMode ? "dark/" : "light/") +
                             (control.visibility === Window.Maximized ? "restor" : "maximiz")

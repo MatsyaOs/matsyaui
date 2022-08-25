@@ -1,0 +1,15 @@
+/home/tokyo/matsyaos/QT6/done/matsyaui/build/CMakeFiles/KF5WindowSystem_QCH.dir
+/home/tokyo/matsyaos/QT6/done/matsyaui/build/CMakeFiles/edit_cache.dir
+/home/tokyo/matsyaos/QT6/done/matsyaui/build/CMakeFiles/rebuild_cache.dir
+/home/tokyo/matsyaos/QT6/done/matsyaui/build/CMakeFiles/list_install_components.dir
+/home/tokyo/matsyaos/QT6/done/matsyaui/build/CMakeFiles/install.dir
+/home/tokyo/matsyaos/QT6/done/matsyaui/build/CMakeFiles/install/local.dir
+/home/tokyo/matsyaos/QT6/done/matsyaui/build/CMakeFiles/install/strip.dir
+/home/tokyo/matsyaos/QT6/done/matsyaui/build/src/CMakeFiles/MatsyaUI.dir
+/home/tokyo/matsyaos/QT6/done/matsyaui/build/src/CMakeFiles/edit_cache.dir
+/home/tokyo/matsyaos/QT6/done/matsyaui/build/src/CMakeFiles/rebuild_cache.dir
+/home/tokyo/matsyaos/QT6/done/matsyaui/build/src/CMakeFiles/list_install_components.dir
+/home/tokyo/matsyaos/QT6/done/matsyaui/build/src/CMakeFiles/install.dir
+/home/tokyo/matsyaos/QT6/done/matsyaui/build/src/CMakeFiles/install/local.dir
+/home/tokyo/matsyaos/QT6/done/matsyaui/build/src/CMakeFiles/install/strip.dir
+/home/tokyo/matsyaos/QT6/done/matsyaui/build/src/CMakeFiles/MatsyaUI_autogen.dir

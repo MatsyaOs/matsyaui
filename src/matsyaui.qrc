@@ -5,20 +5,22 @@
         <file alias="Icon.qml">controls/Icon.qml</file>
         <file alias="PopupTips.qml">controls/PopupTips.qml</file>
         <file alias="RoundedRect.qml">controls/RoundedRect.qml</file>
+        <file alias="MTheme.qml">controls/MTheme.qml</file>
         <file alias="Theme.qml">controls/Theme.qml</file>
         <file alias="Toast.qml">controls/Toast.qml</file>
         <file alias="Units.qml">controls/Units.qml</file>
         <file alias="Window.qml">controls/Window.qml</file>
         <file alias="RoundImageButton.qml">controls/RoundImageButton.qml</file>
-
+        <file alias="HorizontalDivider.qml">controls/HorizontalDivider.qml</file>
+        <file alias="RoundedItem.qml">controls/RoundedItem.qml</file>
+        <file alias="Scrollable.qml">controls/Scrollable.qml</file>
+        <file alias="PairDialog.qml">controls/PairDialog.qml</file>
         <file alias="MatsyaIconButton.qml">controls/MatsyaIconButton.qml</file>
         <file alias="Matsyaslider.qml">controls/Matsyaslider.qml</file>
         <file alias="Hideable.qml">controls/Hideable.qml</file>
         <file alias="VerticalDivider.qml">controls/VerticalDivider.qml</file>
         <file alias="MatsyaWindow.qml">controls/MatsyaWindow.qml</file>
         <file alias="Matsyaicon.qml">controls/Matsyaicon.qml</file>
-        
-
         <file alias="TabBar.qml">controls/TabBar.qml</file>
         <file alias="TabButton.qml">controls/TabButton.qml</file>
         <file alias="TabCloseButton.qml">controls/TabCloseButton.qml</file>
@@ -29,7 +31,6 @@
         <file>images/dark/maximize.svg</file>
         <file>images/dark/minimize.svg</file>
         <file>images/dark/restore.svg</file>
-        <file>images/light/add.svg</file>
         <file>images/dark/add.svg</file>
         <file>images/light/close.svg</file>
         <file>images/light/maximize.svg</file>
@@ -40,37 +41,103 @@
         <file>images/toast/info.svg</file>
         <file>images/toast/success.svg</file>
         <file>images/toast/warn.svg</file>
-
-
-         <file>images/dark/media-playback-pause-symbolic.svg</file>
+        <file>images/dark/media-playback-pause-symbolic.svg</file>
         <file>images/dark/media-playback-start-symbolic.svg</file>
         <file>images/dark/media-skip-backward-symbolic.svg</file>
         <file>images/dark/media-skip-forward-symbolic.svg</file>
-         <file>images/light/media-playback-pause-symbolic.svg</file>
+        <file>images/light/media-playback-pause-symbolic.svg</file>
         <file>images/light/media-playback-start-symbolic.svg</file>
         <file>images/light/media-skip-backward-symbolic.svg</file>
         <file>images/light/media-skip-forward-symbolic.svg</file>
-        
-        
-             <file>images/dark/closea.svg</file>
-          <file>images/dark/closeh.svg</file>
-           <file>images/dark/minimizea.svg</file>
-           <file>images/dark/minimizeh.svg</file>
-           <file>images/dark/maximizeh.svg</file>
-            <file>images/dark/maximizea.svg</file>
-             <file>images/dark/restoreh.svg</file>
-              <file>images/dark/restorea.svg</file>
-
-              <file>images/light/closea.svg</file>
-          <file>images/light/closeh.svg</file>
-           <file>images/light/minimizea.svg</file>
-           <file>images/light/minimizeh.svg</file>
-           <file>images/light/maximizeh.svg</file>
-            <file>images/light/maximizea.svg</file>
-             <file>images/light/restoreh.svg</file>
-              <file>images/light/restorea.svg</file>
-        
+        <file>images/dark/closea.svg</file>
+        <file>images/dark/closeh.svg</file>
+        <file>images/dark/minimizea.svg</file>
+        <file>images/dark/minimizeh.svg</file>
+        <file>images/dark/maximizeh.svg</file>
+        <file>images/dark/maximizea.svg</file>
+        <file>images/dark/restoreh.svg</file>
+        <file>images/dark/restorea.svg</file>
+        <file>images/light/closea.svg</file>
+        <file>images/light/closeh.svg</file>
+        <file>images/light/minimizea.svg</file>
+        <file>images/light/minimizeh.svg</file>
+        <file>images/light/maximizeh.svg</file>
+        <file>images/light/maximizea.svg</file>
+        <file>images/light/restoreh.svg</file>
+        <file>images/light/restorea.svg</file>
         <file alias="ActionTextField.qml">controls/ActionTextField.qml</file>
+        <file>images/light/blue.svg</file>
+        <file>images/light/bluea.svg</file>
+        <file>images/light/blueh.svg</file>
+        <file>images/light/media-playback-start-rtl-symbolic.svg</file>
+        <file>images/light/media-seek-backward-symbolic.svg</file>
+        <file>images/light/media-seek-forward-symbolic.svg</file>
+        <file>images/light/pink.svg</file>
+        <file>images/light/titlebutton-close-active.svg</file>
+        <file>images/light/titlebutton-close-backdrop-active.svg</file>
+        <file>images/light/titlebutton-close-backdrop.svg</file>
+        <file>images/light/titlebutton-close-hover.svg</file>
+        <file>images/light/titlebutton-maximize-active.svg</file>
+        <file>images/light/titlebutton-maximize-backdrop-active.svg</file>
+        <file>images/light/titlebutton-maximize-backdrop.svg</file>
+        <file>images/light/titlebutton-maximize-hover.svg</file>
+        <file>images/light/titlebutton-menu-backdrop-active.svg</file>
+        <file>images/light/titlebutton-menu-backdrop.svg</file>
+        <file>images/light/titlebutton-menu.svg</file>
+        <file>images/light/titlebutton-minimize-active.svg</file>
+        <file>images/light/titlebutton-minimize-backdrop-active.svg</file>
+        <file>images/light/titlebutton-minimize-backdrop.svg</file>
+        <file>images/light/titlebutton-minimize-hover.svg</file>
+        <file>images/light/titlebutton-shade-active.svg</file>
+        <file>images/light/titlebutton-shade-backdrop-active.svg</file>
+        <file>images/light/titlebutton-shade-backdrop.svg</file>
+        <file>images/light/titlebutton-shade-hover.svg</file>
+        <file>images/light/titlebutton-unmaximize-active.svg</file>
+        <file>images/light/titlebutton-unmaximize-backdrop-active.svg</file>
+        <file>images/light/titlebutton-unmaximize-backdrop.svg</file>
+        <file>images/light/titlebutton-unmaximize-hover.svg</file>
+        <file>images/light/titlebutton-unshade-active.svg</file>
+        <file>images/light/titlebutton-unshade-backdrop-active.svg</file>
+        <file>images/light/titlebutton-unshade-backdrop.svg</file>
+        <file>images/light/titlebutton-unshade-hover.svg</file>
+        <file>images/light/white.svg</file>
+        <file>images/light/whitea.svg</file>
+        <file>images/light/whiteh.svg</file>
+        <file>images/dark/blue.svg</file>
+        <file>images/dark/bluea.svg</file>
+        <file>images/dark/blueh.svg</file>
+        <file>images/dark/media-playback-start-rtl-symbolic.svg</file>
+        <file>images/dark/media-seek-backward-symbolic.svg</file>
+        <file>images/dark/media-seek-forward-symbolic.svg</file>
+        <file>images/dark/pinke.svg</file>
+        <file>images/dark/titlebutton-backdrop.svg</file>
+        <file>images/dark/titlebutton-close-backdrop-active.svg</file>
+        <file>images/dark/titlebutton-close-backdrop.svg</file>
+        <file>images/dark/titlebutton-maximize-backdrop-active.svg</file>
+        <file>images/dark/titlebutton-maximize-backdrop.svg</file>
+        <file>images/dark/titlebutton-menu-active.svg</file>
+        <file>images/dark/titlebutton-menu-backdrop-active.svg</file>
+        <file>images/dark/titlebutton-menu-backdrop.svg</file>
+        <file>images/dark/titlebutton-menu-hover.svg</file>
+        <file>images/dark/titlebutton-menu.svg</file>
+        <file>images/dark/titlebutton-minimize-backdrop-active.svg</file>
+        <file>images/dark/titlebutton-minimize-backdrop.svg</file>
+        <file>images/dark/titlebutton-shade-active.svg</file>
+        <file>images/dark/titlebutton-shade-backdrop-active.svg</file>
+        <file>images/dark/titlebutton-shade-backdrop.svg</file>
+        <file>images/dark/titlebutton-shade-hover.svg</file>
+        <file>images/dark/titlebutton-unmaximize-backdrop-active.svg</file>
+        <file>images/dark/titlebutton-unmaximize-backdrop.svg</file>
+        <file>images/dark/titlebutton-unshade-active.svg</file>
+        <file>images/dark/titlebutton-unshade-backdrop-active.svg</file>
+        <file>images/dark/titlebutton-unshade-backdrop.svg</file>
+        <file>images/dark/titlebutton-unshade-hover.svg</file>
+        <file>images/dark/white.svg</file>
+        <file>images/dark/whitea.svg</file>
+        <file>images/dark/whiteh.svg</file>
+        <file>controls/Dialog.qml</file>
+        <file>controls/HowerColor.qml</file>
+        <file>controls/qmldir</file>
     </qresource>
     <qresource prefix="/"/>
 </RCC>
