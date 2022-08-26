@@ -8,7 +8,7 @@ arch=('x86_64')
 url="https://github.com/MatsyaOs/matsyaui"
 license=('GPL')
 groups=('Matsya')
-makedepends=('libqt5x11extras5-dev' 'libkf5windowsystem-dev' 'qtbase5-private-dev' 'libxcb1-dev' 'libxcb-shape0-dev' 'libxcb-icccm4-dev')
+makedepends=('git')
 depends=('kwindowsystem'  'qt5-declarative'  'qt5-graphicaleffects'  'qt5-quickcontrols2'
 )
 source=('git'+'https://github.com/MatsyaOs/matsyaui')
