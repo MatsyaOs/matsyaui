@@ -8,12 +8,8 @@ arch=('x86_64')
 url="https://github.com/MatsyaOs/matsyaui"
 license=('GPL')
 groups=('Matsya')
-makedepends=('git')
-depends=(
-	'pkgconfig'
-	'cmake'
-	'extra-cmake-modules'
-	 'kconfig' 'kdecoration' 'kguiaddons' 'kcoreaddons' 'kconfigwidgets' 'kwindowsystem' 'kwayland' 'pkgconf' 'qt5-base' 'qt5-quickcontrols2' 'qt5-x11extras' 'qt5-tools'  'kwindowsystem' 'polkit' 'polkit-qt5' 'xorg-server-devel' 'xf86-input-libinput' 'xf86-input-synaptics'  'qt5-base' 'qt5-quickcontrols2' 'freetype2' 'fontconfig' 'networkmanager-qt' 'modemmanager-qt'
+makedepends=('libqt5x11extras5-dev' 'libkf5windowsystem-dev' 'qtbase5-private-dev' 'libxcb1-dev' 'libxcb-shape0-dev' 'libxcb-icccm4-dev')
+depends=('kwindowsystem'  'qt5-declarative'  'qt5-graphicaleffects'  'qt5-quickcontrols2'
 )
 source=('git'+'https://github.com/MatsyaOs/matsyaui')
 md5sums=('SKIP')
