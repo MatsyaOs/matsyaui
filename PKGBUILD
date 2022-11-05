@@ -9,7 +9,7 @@ url="https://github.com/MatsyaOs/matsyaui"
 license=('GPL')
 groups=('Matsya')
 makedepends=('git')
-depends=('kwindowsystem'  'qt5-declarative'  'qt5-graphicaleffects'  'qt5-quickcontrols2'
+depends=('kwindowsystem'  'qt5-declarative'  'qt5-graphicaleffects'  'qt5-quickcontrols2' 'qt5-tools' 'ninja' 'extra-cmake-modules'
 )
 source=('git'+'https://github.com/MatsyaOs/matsyaui')
 md5sums=('SKIP')
